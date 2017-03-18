@@ -8,6 +8,9 @@
 - link:
     ~/.gitconfig:
     ~/.hyper.js:
+    ~/.zsh:
     ~/.zshrc:
 
-- shell: []
+- shell:
+  - [ln -s ~/.zsh/pure/pure.zsh /usr/local/share/zsh/site-functions/prompt_pure_setup, Link pure prompt]
+  - [ln -s ~/.zsh/pure/async.zsh /usr/local/share/zsh/site-functions/async, Link async for pure prompt]
