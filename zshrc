@@ -12,7 +12,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="pure"
+ZSH_THEME=""
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -62,8 +62,12 @@ export PATH="$HOME/.composer/vendor/bin:/usr/local/bin:$PATH"
 # Aliases
 source ~/.zsh/aliases.sh
 
-export NVM_DIR="/Users/naidraikzir/.nvm"
+# NVM
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# RVM
+export PATH="$PATH:$HOME/.rvm/bin"
 
 fpath+=("/usr/local/share/zsh/site-functions")
 autoload -U promptinit; promptinit
