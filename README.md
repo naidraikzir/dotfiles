@@ -6,8 +6,10 @@ These are my dotfiles. I use [dotbot](https://github.com/anishathalye/dotbot) to
 
 - gitconfig
 - hyper.js ([hyper](https://hyper.is/))
-- zshrc
+- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+- zsh
 
 ## Plugins
 
-- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+- [k](https://github.com/supercrabtree/k)
+- zsh-syntax-highlighting
