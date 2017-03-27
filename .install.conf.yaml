@@ -7,9 +7,12 @@
 
 - link:
     ~/.config:
+    ~/.config/tint2/tint2rc: tint2
     ~/.gitconfig:
     ~/.hyper.js:
+    ~/.ncmpcpp/config: ncmpcpp
     ~/.oh-my-zsh:
+    ~/.Xresources:
     ~/.zsh:
     ~/.zshrc:
 

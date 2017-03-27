@@ -64,7 +64,7 @@ task_urgent_icon_asb = 100 0 0
 task_iconified_icon_asb = 100 0 0
 
 # Fonts
-task_font = ProggyCleanTTSZBP 12
+task_font = Roboto Mono 9
 task_font_color = #a5adff 100
 task_active_font_color = #a5adff 100
 task_urgent_font_color = #a5adff 100
@@ -78,11 +78,11 @@ systray_sort = left2right
 systray_background_id = 0
 systray_icon_size = 22
 systray_icon_asb = 100 0 0
-systray_icon_theme = Faenza-Dark
+systray_icon_theme = La Capitaine
 
 # Clock
 time1_format = %H:%M
-time1_font = ProggyCleanTTSZBP 12
+time1_font = Roboto Mono 9
 clock_font_color = #a5adff 100
 clock_tooltip = 
 clock_padding = 10 6
@@ -112,8 +112,8 @@ battery = 1
 battery_low_status = 20
 battery_low_cmd = notify-send "battery low"
 battery_hide = never
-bat1_font = ProggyCleanTTSZBP 12
-bat2_font = ProggyCleanTTSZBP 12
+bat1_font = Roboto Mono 9
+bat2_font = Roboto Mono 9
 battery_font_color = #a5adff 100
 battery_padding = 2 0
 battery_background_id = 0
