@@ -6,6 +6,7 @@
 - clean: ['~', '~/.config']
 
 - link:
+    ~/.config:
     ~/.gitconfig:
     ~/.hyper.js:
     ~/.oh-my-zsh:
@@ -14,5 +15,5 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - [ln -s ~/.zsh/plugins/pure/pure.zsh /usr/local/share/zsh/site-functions/prompt_pure_setup, Link pure prompt]
-  - [ln -s ~/.zsh/plugins/pure/async.zsh /usr/local/share/zsh/site-functions/async, Link async for pure prompt]
+  # - [ln -s ~/.zsh/plugins/pure/pure.zsh /usr/local/share/zsh/site-functions/prompt_pure_setup, Link pure prompt]
+  # - [ln -s ~/.zsh/plugins/pure/async.zsh /usr/local/share/zsh/site-functions/async, Link async for pure prompt]

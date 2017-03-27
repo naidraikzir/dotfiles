@@ -69,9 +69,9 @@ export NVM_DIR="$HOME/.nvm"
 # RVM
 export PATH="$PATH:$HOME/.rvm/bin"
 
-fpath+=("/usr/local/share/zsh/site-functions")
-autoload -U promptinit; promptinit
-prompt pure
+#fpath+=("/usr/local/share/zsh/site-functions")
+#autoload -U promptinit; promptinit
+#prompt pure
 
 # External plugins (initialized after)
 source ~/.zsh/plugins_after.zsh

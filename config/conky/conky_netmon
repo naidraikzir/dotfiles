@@ -1,0 +1,27 @@
+default_color a5adff
+alignment top_left
+gap_x 50
+gap_y 30
+minimum_size 300 40
+maximum_width 700
+draw_graph_borders yes
+##${voffset -38}${upspeedgraph enp3s0 45,300 14151f af2445 scale 100KiB -l}
+TEXT
+${include /home/naidraikzir/.conky/templeterino.conf}
+
+${goto 415}${color af2445}DWN SPD
+${goto 415}${downspeedf wlan0} KiB${color}
+${voffset -40}${downspeedgraph wlan0 60,400 af2445 14151f scale 975KiB -l}
+
+${goto 415}${color 494a5b}UPL SPD
+${goto 415}${upspeedf wlan0} KiB${color}  
+${voffset -45}${upspeedgraph wlan0 60,400 14151f 494a5b scale 100KiB -l}
+${texeci 7200 speedtest-cli --simple > /home/naidraikzir/.conky/.speeds 2>&1}
+
+${execpi 60 cat /home/naidraikzir/.conky/.speeds | sed -e 's/Ping/PNG/' -e 's/Download/DWN/' -e 's/Upload/UPL/' -e 's/$/    /' | tr '\n' ' '}
+
+
+
+
+${color 494a5b}${execi 3600 ip route}${color}
+##${image /home/naidraikzir/.conky/asset.png -p 0,0 -n}
