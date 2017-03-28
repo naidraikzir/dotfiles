@@ -4,9 +4,14 @@ These are my dotfiles. I use [dotbot](https://github.com/anishathalye/dotbot) to
 
 ## Contents
 
+- [compton](https://github.com/chjj/compton)
+- conky
 - gitconfig
-- hyper.js ([hyper](https://hyper.is/))
+- hyper.js ([hyper](https://hyper.is))
 - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+- [openbox](http://openbox.org)
+- tint2
+- Xresources
 - zsh
 
 ## Plugins

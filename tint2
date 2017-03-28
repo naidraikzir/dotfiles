@@ -64,7 +64,7 @@ task_urgent_icon_asb = 100 0 0
 task_iconified_icon_asb = 100 0 0
 
 # Fonts
-task_font = Roboto Mono 9
+task_font = Roboto Mono 8
 task_font_color = #a5adff 100
 task_active_font_color = #a5adff 100
 task_urgent_font_color = #a5adff 100
@@ -81,12 +81,12 @@ systray_icon_asb = 100 0 0
 systray_icon_theme = La Capitaine
 
 # Clock
-time1_format = %H:%M
+time1_format = %A, %H:%M
 time1_font = Roboto Mono 9
 clock_font_color = #a5adff 100
 clock_tooltip = 
 clock_padding = 10 6
-clock_background_id = 2
+clock_background_id = 3
 clock_lclick_command = gsimplecal
 time1_timezone = 
 time2_timezone = 
@@ -112,8 +112,8 @@ battery = 1
 battery_low_status = 20
 battery_low_cmd = notify-send "battery low"
 battery_hide = never
-bat1_font = Roboto Mono 9
-bat2_font = Roboto Mono 9
+bat1_font = Roboto Mono 8
+bat2_font = Roboto Mono 8
 battery_font_color = #a5adff 100
 battery_padding = 2 0
 battery_background_id = 0
