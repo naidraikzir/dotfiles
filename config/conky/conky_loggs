@@ -1,18 +1,18 @@
-alignment top left
-minimum_size 380 350
-maximum_width 380
-gap_x 40
-gap_y -70
-default_color 494a5b
-color2 d05400
-color3 b30000
+alignment br
+minimum_size 450 100
+maximum_width 500
+gap_x 20
+gap_y 50
+default_color a5adff
+color2 a5adff
+color3 a5adff
+
 TEXT
+
 ${include /home/naidraikzir/.conky/templeterino.conf}
-  ╭╴               ╶╮
-       ${color a5adff}SYS LOGS${color }   
-  ╰╴               ╶╯
 
-${execpi 60 tail -n 15 /var/log/messages | cut -c1-90 | awk '{$1=$2=$4=""; print $0}' | sed -e 's/kernel/${color af2445}kernel${color}/' -e 's/root/${color 23ada0}root${color}/'}
+  ${color a5adff}SYS LOGS${color}
 
+${execpi 60 tail -n 15 /var/log/messages | cut -c1-90 | awk '{$1=$2=$4=""; print $0}' | sed -e 's/kernel/${color a5adff}kernel${color}/' -e 's/root/${color a5adff}root${color}/'}
 
   UPTIME: ${execi 60 uptime | awk '{print $3 $4 $5}'}

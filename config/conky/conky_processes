@@ -1,22 +1,22 @@
-alignment bottom_left
+alignment bl
+minimum_size 380 100
+maximum_width 380
 gap_x 495
-gap_y -20
+gap_y 20
 cpu_avg_samples 2
 net_avg_samples 2
-minimum_size 600 160
-maximum_width 600
-color0 494a5b
+color0 a5adff
 default_color a5adff
-color1 494a5b
+color1 a5adff
+
 TEXT
-#leet chars: ┤┤└└┴┴┐┐││┘┘┌┌├├┬┬┼┼┴┴── ││ ▽▼△▲▵▴▾▿ ❱❱❰❰
-${goto 90}${font Monospace:pixelsize=9}CPU${font}${goto 190}│${goto 275}${color0}${font Monospace:pixelsize=9}RAM${font}${color}                   
+
+${goto 90}${font monospace:pixelsize=10}CPU${font}${goto 190}│${goto 275}${color0}${font monospace:pixelsize=10}RAM${font}${color}
+
 ${include /home/naidraikzir/.conky/templeterino.conf}
-╶┼╴                                 ╶┼╴                                 ╶┼╴
+
 ${execpi 5 top -b -n 1 -o %CPU | head -n 15  | tail -n 8 | awk '{print $12, $9}' | column -t -c "      " | sed 's/^/         /'}
-${voffset -80}${color0}${execpi 5 top -b -n 1 -o %MEM | head -n 15  | tail -n 8 | awk '{print $12, $10}' | column -t -c "      " | sed 's/^/${goto 240}/'}${color}
-╶┼╴                                                                     ╶┼╴
+${voffset -90}${color0}${execpi 5 top -b -n 1 -o %MEM | head -n 15  | tail -n 8 | awk '{print $12, $10}' | column -t -c "      " | sed 's/^/${goto 240}/'}${color}
 
 ${goto 48}${color1}${exec grep [0-9] /proc/loadavg | awk '{print $1}'}    ${exec grep [0-9] /proc/loadavg | awk '{print $2}'}    ${exec grep [0-9] /proc/loadavg | awk '{print $3}'}
-${voffset -10}${goto 220}$mem / $memmax - ${fs_used_perc /tmp}% tmp${color}
-##${image /home/naidraikzir/.conky/processes.png -p 0,30 -n}
+${voffset -11}${goto 220}$mem / $memmax - ${fs_used_perc /tmp}% tmp${color}
