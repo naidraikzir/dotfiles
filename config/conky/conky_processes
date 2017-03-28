@@ -1,8 +1,8 @@
 alignment bl
-minimum_size 380 100
+minimum_size 380 50
 maximum_width 380
-gap_x 495
-gap_y 20
+gap_x 485
+gap_y 40
 cpu_avg_samples 2
 net_avg_samples 2
 color0 a5adff
@@ -11,10 +11,8 @@ color1 a5adff
 
 TEXT
 
-${goto 90}${font monospace:pixelsize=10}CPU${font}${goto 190}│${goto 275}${color0}${font monospace:pixelsize=10}RAM${font}${color}
-
-${include /home/naidraikzir/.conky/templeterino.conf}
-
+${goto 95}${font monospace:pixelsize=10}CPU${font}${goto 190}│${goto 270}${color0}${font monospace:pixelsize=10}RAM${font}${color}
+${include /home/naidraikzir/.config/conky/templeterino.conf}
 ${execpi 5 top -b -n 1 -o %CPU | head -n 15  | tail -n 8 | awk '{print $12, $9}' | column -t -c "      " | sed 's/^/         /'}
 ${voffset -90}${color0}${execpi 5 top -b -n 1 -o %MEM | head -n 15  | tail -n 8 | awk '{print $12, $10}' | column -t -c "      " | sed 's/^/${goto 240}/'}${color}
 

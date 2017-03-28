@@ -1,15 +1,15 @@
-alignment br
-minimum_size 450 100
-maximum_width 500
+alignment bl
+minimum_size 250 100
+maximum_width 450
 gap_x 20
-gap_y 50
+gap_y 40
 default_color a5adff
 color2 a5adff
 color3 a5adff
 
 TEXT
 
-${include /home/naidraikzir/.conky/templeterino.conf}
+${include /home/naidraikzir/.config/conky/templeterino.conf}
 
   ${color a5adff}SYS LOGS${color}
 
