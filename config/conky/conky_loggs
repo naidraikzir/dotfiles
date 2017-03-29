@@ -2,7 +2,7 @@ alignment bl
 minimum_size 250 100
 maximum_width 450
 gap_x 20
-gap_y 40
+gap_y 60
 default_color a5adff
 color2 a5adff
 color3 a5adff

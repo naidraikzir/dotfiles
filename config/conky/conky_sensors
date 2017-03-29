@@ -1,9 +1,9 @@
 default_color a5adff
-alignment br
-minimum_size 100 200
-maximum_width 400
-gap_x 20
-gap_y 370
+alignment bl
+minimum_size 100 20
+maximum_width 200
+gap_x 32
+gap_y 40
 color3 af2445
 
 own_window yes
@@ -14,16 +14,8 @@ own_window_argb_visual yes
 own_window_colour 000000
 own_window_argb_value 0
 
-lua_load /home/naidraikzir/.config/conky/sensors.lua
-lua_draw_hook_pre sensors_rings
-
 TEXT
 
 ${include /home/naidraikzir/.config/conky/templeterino.conf}
-${font monospace:pixelsize=12}
 
-${goto 40}CPU
-${goto 40}${exec sensors | grep Phys | cut -c 17-24}
-
-${goto 20}GPU
-${goto 20}${exec sensors | grep -A2 radeon | grep temp | cut -c 15-22}
+CPU ${exec sensors | grep Phys | cut -c 17-24}         GPU ${exec sensors | grep -A2 radeon | grep temp | cut -c 15-22}
