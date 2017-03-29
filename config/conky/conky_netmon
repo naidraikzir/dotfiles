@@ -1,6 +1,6 @@
 alignment br
 minimum_size 380 100
-maximum_width 480
+maximum_width 450
 gap_x 20
 gap_y 40
 default_color a5adff
