@@ -4,7 +4,7 @@ function rgb_to_r_g_b(color,alpha)
 return ((0xa5adff / 0x10000) % 0x100) / 255., ((0xa5adff / 0x100) % 0x100) / 255., (0xa5adff % 0x100) / 255., 1
 end
 
-function conky_main(color, alpha)
+function conky_main_graph(color, alpha)
 	if conky_window == nil then return end
 	local cs = cairo_xlib_surface_create(conky_window.display, conky_window.drawable, conky_window.visual, conky_window.width, conky_window.height)
 	cr = cairo_create(cs)

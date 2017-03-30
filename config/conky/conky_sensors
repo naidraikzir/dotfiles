@@ -1,21 +1,28 @@
-default_color a5adff
-alignment bl
-minimum_size 100 20
-maximum_width 200
-gap_x 32
-gap_y 40
-color3 af2445
+conky.config = {
+  	update_interval=1,
+	text_buffer_size=2048,
+	double_buffer=true,
+	no_buffers=true,
+	default_color = '#a5adff',
+	alignment = 'bottom_left',
+	gap_x = 32,
+	gap_y = 30,
+	color3 = '#af2445',
+    use_xft = true,
+    font = 'monospace:pixelsize=10',
 
-own_window yes
-own_window_type normal
-own_window_transparent yes
-own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
-own_window_argb_visual yes
-own_window_colour 000000
-own_window_argb_value 0
+  	own_window_class='Conky',
+	own_window = true,
+	own_window_type = 'normal',
+	own_window_transparent = true,
+	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+	own_window_argb_visual = true,
+	own_window_colour = '#000000',
+	own_window_argb_value = 0,
+	minimum_width = 100, minimum_height = 20,
+	maximum_width = 200,
+};
 
-TEXT
-
-${include /home/naidraikzir/.config/conky/templeterino.conf}
-
+conky.text = [[
 CPU ${exec sensors | grep Phys | cut -c 17-24}         GPU ${exec sensors | grep -A2 radeon | grep temp | cut -c 15-22}
+]];

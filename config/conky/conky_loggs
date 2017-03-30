@@ -1,18 +1,34 @@
-alignment bl
-minimum_size 250 100
-maximum_width 450
-gap_x 20
-gap_y 60
-default_color a5adff
-color2 a5adff
-color3 a5adff
+conky.config = {
+  update_interval=1,
+  text_buffer_size=2048,
+  double_buffer=true,
+  no_buffers=true,
+  use_xft=true,
+  font='monospace:pixelsize=10',
+  draw_shades=false,
+  override_utf8_locale=true,
+  own_window=true,
+  own_window_type='normal',
+  own_window_class='Conky',
+  own_window_transparent = true,
+  own_window_hints='undecorated,below,sticky,skip_taskbar,skip_pager',
+  own_window_argb_visual = true,
+  own_window_colour = '#000000',
+  own_window_argb_value = 0,
 
-TEXT
+	alignment = 'bottom_left',
+	minimum_width = 250, minimum_height = 100,
+	maximum_width = 450,
+	gap_x = 20,
+	gap_y = 60,
+	default_color = '#a5adff',
+	color2 = '#a5adff',
+	color3 = '#a5adff',
+};
 
-${include /home/naidraikzir/.config/conky/templeterino.conf}
-
+conky.text = [[
   ${color a5adff}SYS LOGS${color}
-
 ${execpi 60 tail -n 15 /var/log/messages | cut -c1-90 | awk '{$1=$2=$4=""; print $0}' | sed -e 's/kernel/${color a5adff}kernel${color}/' -e 's/root/${color a5adff}root${color}/'}
 
   UPTIME: ${execi 60 uptime | awk '{print $3 $4 $5}'}
+]];

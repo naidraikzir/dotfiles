@@ -1,15 +1,33 @@
-alignment br
-minimum_size 380 100
-maximum_width 450
-gap_x 20
-gap_y 40
-default_color a5adff
-draw_graph_borders no
+conky.config = {
+    update_interval=1,
+    background=false,
+    text_buffer_size=2048,
+    double_buffer=true,
+    no_buffers=true,
+    use_xft=true,
+    font='monospace:pixelsize=10',
+    draw_shades=false,
+    override_utf8_locale=true,
+    own_window=true,
+    own_window_type='normal',
+    own_window_class='Conky',
+    own_window_transparent=true,
+    own_window_hints='undecorated,below,sticky,skip_taskbar,skip_pager',
+    own_window_argb_visual = true,
+    own_window_colour = '#000000',
+    own_window_argb_value = 0,
+    draw_graph_borders=false,
 
-TEXT
+	default_color = '#a5adff',
+	alignment = 'bottom_right',
+	gap_x = 20,
+	gap_y = 40,
+	minimum_width = 380, minimum_height = 100,
+	maximum_width = 450,
+--# ${voffset -38}${upspeedgraph enp3s0 45,300 14151f af2445 scale 100KiB -l}
+};
 
-${include /home/naidraikzir/.config/conky/templeterino.conf}
-
+conky.text = [[
 ${downspeedgraph wlan0 60,400 af2445 14151f scale 975KiB -l}
 ${color af2445}DWN SPD
 ${downspeedf wlan0} KiB${color}
@@ -23,3 +41,4 @@ ${texeci 7200 speedtest-cli --simple > /home/naidraikzir/.config/conky/.speeds 2
 ${execpi 60 cat /home/naidraikzir/.config/conky/.speeds | sed -e 's/Ping/PNG/' -e 's/Download/DWN/' -e 's/Upload/UPL/' -e 's/$/    /' | tr '\n' ' '}
 
 ${color a5adff}${execi 3600 ip route}${color}
+]];
