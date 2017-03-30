@@ -19,7 +19,7 @@ conky.config = {
     draw_graph_borders=false,
 
 	alignment = 'bottom_left',
-	gap_x = 485,
+	gap_x = 493,
 	gap_y = 40,
 	cpu_avg_samples = 2,
 	net_avg_samples = 2,

@@ -21,6 +21,11 @@
 				<execute>x-www-browser</execute>
 			</action>
 		</item>
+		<item label="shiba">
+			<action name="Execute">
+				<execute>/opt/Shiba/Shiba</execute>
+			</action>
+		</item>
 		<item label="manageyum">
 			<action name="Execute">
 				<execute>/opt/Manageyum/Manageyum</execute>
