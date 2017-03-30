@@ -24,10 +24,3 @@ conky -c ~/.config/conky/conky_netmon &
 conky -c ~/.config/conky/conky_loggs &
 conky -c ~/.config/conky/conky_processes &
 conky -c ~/.config/conky/conky_sensors &
-
-#conky -c ~/.conky/conky_cal &
-#conky -c ~/.conky/conky_connections &
-#conky -c ~/.conky/conky_gmail &
-#conky -c ~/.conky/conky_hdd &
-#conky -c ~/.conky/conky_notifs &
-#conky -c ~/.conky/conky_weather &
