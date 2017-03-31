@@ -20,7 +20,7 @@ conky.config = {
 	minimum_width = 250, minimum_height = 100,
 	maximum_width = 450,
 	gap_x = 20,
-	gap_y = 30,
+	gap_y = 40,
 	default_color = '#a5adff',
 	color2 = '#a5adff',
 	color3 = '#a5adff',
