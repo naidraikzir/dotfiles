@@ -81,7 +81,7 @@ systray_icon_asb = 100 0 0
 systray_icon_theme = La Capitaine
 
 # Clock
-time1_format = %A, %H:%M
+time1_format = %a, %H:%M
 time1_font = Roboto Mono 9
 clock_font_color = #a5adff 100
 clock_tooltip = 

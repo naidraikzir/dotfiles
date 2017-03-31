@@ -7,12 +7,6 @@
 [submodule "zsh/plugins/k"]
 	path = zsh/plugins/k
 	url = https://github.com/supercrabtree/k.git
-[submodule "zsh/plugins/pure"]
-	path = zsh/plugins/pure
-	url = https://github.com/sindresorhus/pure.git
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh
-[submodule "zsh/plugins/spaceship-zsh-theme"]
-	path = zsh/plugins/spaceship-zsh-theme
-	url = https://github.com/denysdovhan/spaceship-zsh-theme.git
