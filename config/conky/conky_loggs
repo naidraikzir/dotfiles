@@ -20,7 +20,7 @@ conky.config = {
 	minimum_width = 250, minimum_height = 100,
 	maximum_width = 450,
 	gap_x = 20,
-	gap_y = 60,
+	gap_y = 30,
 	default_color = '#a5adff',
 	color2 = '#a5adff',
 	color3 = '#a5adff',
@@ -31,4 +31,6 @@ conky.text = [[
 ${execpi 60 tail -n 15 /var/log/messages | cut -c1-90 | awk '{$1=$2=$4=""; print $0}' | sed -e 's/kernel/${color a5adff}kernel${color}/' -e 's/root/${color a5adff}root${color}/'}
 
   UPTIME: ${execi 60 uptime | awk '{print $3 $4 $5}'}
+
+  CPU ${exec sensors | grep Phys | cut -c 17-24}         GPU ${exec sensors | grep -A2 radeon | grep temp | cut -c 15-22}
 ]];
