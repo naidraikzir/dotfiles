@@ -26,11 +26,6 @@
 				<execute>/opt/Shiba/Shiba</execute>
 			</action>
 		</item>
-		<item label="manageyum">
-			<action name="Execute">
-				<execute>/opt/Manageyum/Manageyum</execute>
-			</action>
-		</item>
 		<!-- This requires the presence of the 'menu' package to work -->
 		<menu id="/Debian/Applications"/>
 		<separator/>

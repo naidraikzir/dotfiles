@@ -6,9 +6,6 @@ pactl load-module module-bluetooth-discover
 # set previous desktop background with nitrogen
 nitrogen --restore
 
-# activate cerebro
-cerebro &
-
 # activate compton compositor
 compton -cCb --config ~/.config/compton.conf
 
