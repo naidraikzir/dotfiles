@@ -15,6 +15,7 @@
     ~/.ncmpcpp/config: ncmpcpp
     ~/.oh-my-zsh:
     ~/.tmux.conf:
+    ~/.vim:
     ~/.vimrc:
     ~/.Xresources:
     ~/.zsh:
