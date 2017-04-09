@@ -7,6 +7,7 @@ These are my dotfiles. I use [dotbot](https://github.com/anishathalye/dotbot) to
 - gitconfig
 - hyper.js ([hyper](https://hyper.is))
 - [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+- tmux
 - vim
 - zsh
 
@@ -14,3 +15,5 @@ These are my dotfiles. I use [dotbot](https://github.com/anishathalye/dotbot) to
 
 - [k](https://github.com/supercrabtree/k)
 - zsh-syntax-highlighting
+- tmux-resurrect
+- vim-pathogen
