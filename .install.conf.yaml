@@ -6,18 +6,12 @@
 - clean: ['~', '~/.config']
 
 - link:
-    ~/.config/compton.conf: config/compton.conf
-    ~/.config/conky: config/conky
-    ~/.config/openbox: config/openbox
-    ~/.config/tint2/tint2rc: config/tint2
     ~/.gitconfig:
     ~/.hyper.js:
-    ~/.ncmpcpp/config: ncmpcpp
     ~/.oh-my-zsh:
     ~/.tmux.conf:
     ~/.vim:
     ~/.vimrc:
-    ~/.Xresources:
     ~/.zsh:
     ~/.zshrc:
 
