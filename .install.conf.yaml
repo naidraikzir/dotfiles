@@ -17,3 +17,4 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - [ln -sf ~/.dotfiles/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/pathogen.vim, Link vim pathogen]
