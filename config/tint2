@@ -17,7 +17,7 @@ border_color = #cfcfcf 15
 # ID 3
 rounded = 0
 border_width = 0
-background_color = #00121A 10
+background_color = #00121A 50
 border_color = #cfcfcf 15
 
 # Panel
