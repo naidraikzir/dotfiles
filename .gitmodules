@@ -37,3 +37,6 @@
 [submodule "vim-pathogen"]
 	path = vim-pathogen
 	url = https://github.com/tpope/vim-pathogen
+[submodule "tmux-resurrect"]
+	path = tmux-resurrect
+	url = https://github.com/tmux-plugins/tmux-resurrect
