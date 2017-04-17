@@ -40,3 +40,12 @@
 [submodule "tmux-resurrect"]
 	path = tmux-resurrect
 	url = https://github.com/tmux-plugins/tmux-resurrect
+[submodule "vim/bundle/vim-vue"]
+	path = vim/bundle/vim-vue
+	url = https://github.com/posva/vim-vue
+[submodule "vim/bundle/vim-pug"]
+	path = vim/bundle/vim-pug
+	url = https://github.com/digitaltoad/vim-pug
+[submodule "vim/bundle/vim-es6"]
+	path = vim/bundle/vim-es6
+	url = https://github.com/isRuslan/vim-es6
