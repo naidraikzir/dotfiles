@@ -41,7 +41,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
-export PATH="/usr/local/sbin:$HOME/.composer/vendor/bin:/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$HOME/.composer/vendor/bin:/usr/local/bin:$HOME/go/bin:$PATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
