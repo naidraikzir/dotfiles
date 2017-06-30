@@ -80,3 +80,9 @@ source ~/.zsh/plugins_after.zsh
 if [ -f ~/.zshrc_local_after ]; then
     source ~/.zshrc_local_after
 fi
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/naidraikzir/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/naidraikzir/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/naidraikzir/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/naidraikzir/google-cloud-sdk/completion.zsh.inc'; fi

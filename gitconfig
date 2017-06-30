@@ -3,3 +3,4 @@
 	name = Rizki Ardian
 [core]
 	editor = vim
+	excludesfile = /Users/naidraikzir/.gitignore
