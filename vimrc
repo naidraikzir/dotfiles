@@ -6,6 +6,8 @@ set omnifunc=syntaxcomplete#Complete
 set number
 set updatetime=250
 
+:iabbrev <// </<C-X><C-O>
+
 "Filetype tabspaces
 autocmd Filetype php setlocal shiftwidth=4 tabstop=4
 autocmd Filetype javascript setlocal shiftwidth=2 tabstop=2
