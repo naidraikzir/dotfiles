@@ -17,6 +17,9 @@ autocmd Filetype vue setlocal shiftwidth=2 tabstop=2
 autocmd Filetype go setlocal shiftwidth=4 tabstop=4
 autocmd Filetype python setlocal shiftwidth=4 tabstop=4
 autocmd Filetype pug setlocal shiftwidth=2 tabstop=2
+autocmd Filetype yaml setlocal shiftwidth=4 tabstop=4
+autocmd Filetype gql setlocal shiftwidth=2 tabstop=2
+autocmd Filetype json setlocal shiftwidth=2 tabstop=2
 
 "Vue file syntax highlighting
 autocmd FileType vue syntax sync fromstart
