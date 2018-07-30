@@ -12,7 +12,24 @@ export ZSH=$HOME/.oh-my-zsh
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="ys"
+ZSH_THEME="spaceship"
+
+SPACESHIP_BATTERY_SHOW="always"
+SPACESHIP_TIME_SHOW=true
+SPACESHIP_CHAR_SYMBOL="👉  "
+SPACESHIP_PROMPT_ORDER=(
+  dir
+  package
+  node
+  php
+  exec_time
+  time
+  battery
+  git
+  line_sep
+  exit_code
+  char
+)
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -68,6 +85,15 @@ export NVM_DIR="$HOME/.nvm"
 
 # RVM
 export PATH="$PATH:$HOME/.rvm/bin"
+
+# Flutter
+export PATH="$HOME/Code/flutters/flutter/bin:$PATH"
+
+# Android
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+export PATH="$PATH:$ANDROID_HOME/tools"
+export PATH="$PATH:$ANDROID_HOME/tools/bin"
+export PATH="$PATH:$ANDROID_HOME/platform-tools"
 
 #fpath+=("/usr/local/share/zsh/site-functions")
 #autoload -U promptinit; promptinit

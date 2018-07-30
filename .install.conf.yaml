@@ -17,3 +17,4 @@
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   - [ln -sf ~/.dotfiles/vim-pathogen/autoload/pathogen.vim ~/.vim/autoload/pathogen.vim, Link vim pathogen]
+  - [ln -sf ~/.dotfiles/zsh/plugins/spaceship-prompt/spaceship.zsh-theme ~/.oh-my-zsh/custom/themes/spaceship.zsh-theme, Link spaceship theme]

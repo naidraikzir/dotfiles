@@ -15,6 +15,7 @@ autocmd Filetype css setlocal shiftwidth=2 tabstop=2
 autocmd Filetype scss setlocal shiftwidth=2 tabstop=2
 autocmd Filetype vue setlocal shiftwidth=2 tabstop=2
 autocmd Filetype go setlocal shiftwidth=4 tabstop=4
+autocmd Filetype rc setlocal shiftwidth=4 tabstop=4
 autocmd Filetype python setlocal shiftwidth=4 tabstop=4
 autocmd Filetype pug setlocal shiftwidth=2 tabstop=2
 autocmd Filetype yaml setlocal shiftwidth=4 tabstop=4
