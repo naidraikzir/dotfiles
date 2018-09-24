@@ -26,8 +26,8 @@ SPACESHIP_PROMPT_ORDER=(
   time
   battery
   git
-  line_sep
   exit_code
+  line_sep
   char
 )
 
