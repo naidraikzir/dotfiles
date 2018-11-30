@@ -16,7 +16,7 @@ ZSH_THEME="spaceship"
 
 SPACESHIP_BATTERY_SHOW="always"
 SPACESHIP_TIME_SHOW=true
-SPACESHIP_CHAR_SYMBOL="👉  "
+SPACESHIP_CHAR_SYMBOL="$ "
 SPACESHIP_PROMPT_ORDER=(
   dir
   package
@@ -87,7 +87,7 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$PATH:$HOME/.rvm/bin"
 
 # Flutter
-export PATH="$HOME/Code/flutters/flutter/bin:$PATH"
+export PATH="$PATH:$HOME/Code/flutters/flutter/bin"
 
 # Android
 export ANDROID_HOME="$HOME/Library/Android/sdk"
