@@ -95,9 +95,7 @@ export PATH="$PATH:$ANDROID_HOME/tools"
 export PATH="$PATH:$ANDROID_HOME/tools/bin"
 export PATH="$PATH:$ANDROID_HOME/platform-tools"
 
-#fpath+=("/usr/local/share/zsh/site-functions")
-#autoload -U promptinit; promptinit
-#prompt pure
+eval $(thefuck --alias)
 
 # External plugins (initialized after)
 source ~/.zsh/plugins_after.zsh
