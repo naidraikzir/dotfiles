@@ -111,3 +111,4 @@ if [ -f '/Users/naidraikzir/google-cloud-sdk/path.zsh.inc' ]; then source '/User
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/naidraikzir/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/naidraikzir/google-cloud-sdk/completion.zsh.inc'; fi
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
