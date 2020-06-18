@@ -95,8 +95,6 @@ export PATH="$PATH:$ANDROID_HOME/tools"
 export PATH="$PATH:$ANDROID_HOME/tools/bin"
 export PATH="$PATH:$ANDROID_HOME/platform-tools"
 
-eval $(thefuck --alias)
-
 # External plugins (initialized after)
 source ~/.zsh/plugins_after.zsh
 
