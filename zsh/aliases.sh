@@ -1,6 +1,7 @@
 # Shell aliases
 
 alias python="python3"
+alias cat="lolcat"
 
 # Hide/show all desktop icons (useful when presenting)
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
