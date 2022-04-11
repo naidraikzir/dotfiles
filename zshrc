@@ -23,9 +23,9 @@ SPACESHIP_PROMPT_ORDER=(
   node
   php
   exec_time
+  git
   time
   battery
-  git
   exit_code
   line_sep
   char
