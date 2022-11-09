@@ -60,4 +60,4 @@
 	url = https://github.com/enricobacis/vim-airline-clock
 [submodule "zsh/plugins/spaceship-prompt"]
 	path = zsh/plugins/spaceship-prompt
-	url = https://github.com/denysdovhan/spaceship-prompt
+	url = https://github.com/spaceship-prompt/spaceship-prompt
