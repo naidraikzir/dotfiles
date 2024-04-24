@@ -118,8 +118,6 @@ esac
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-export NODE_OPTIONS=--openssl-legacy-provider
-
 
 
 # External plugins (initialized after)
