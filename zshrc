@@ -16,7 +16,7 @@ ZSH_THEME="spaceship"
 
 SPACESHIP_BATTERY_SHOW="always"
 SPACESHIP_TIME_SHOW=true
-SPACESHIP_CHAR_SYMBOL="$ "
+SPACESHIP_CHAR_SYMBOL="🔅 "
 SPACESHIP_PROMPT_ORDER=(
   dir
   package
@@ -94,14 +94,6 @@ export PATH="$PATH:$ANDROID_HOME/tools"
 export PATH="$PATH:$ANDROID_HOME/tools/bin"
 export PATH="$PATH:$ANDROID_HOME/platform-tools"
 
-# External plugins (initialized after)
-source ~/.zsh/plugins_after.zsh
-
-# Allow local customizations in the ~/.zshrc_local_after file
-if [ -f ~/.zshrc_local_after ]; then
-    source ~/.zshrc_local_after
-fi
-
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/naidraikzir/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/naidraikzir/google-cloud-sdk/path.zsh.inc'; fi
 
@@ -110,3 +102,30 @@ if [ -f '/Users/naidraikzir/google-cloud-sdk/completion.zsh.inc' ]; then source 
 
 # fnm
 eval "$(fnm env --use-on-cd)"
+
+# pnpm
+export PNPM_HOME="/Users/naidraikzir/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
+# bun completions
+[ -s "/Users/naidraikzir/.bun/_bun" ] && source "/Users/naidraikzir/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+export NODE_OPTIONS=--openssl-legacy-provider
+
+
+
+# External plugins (initialized after)
+source ~/.zsh/plugins_after.zsh
+
+# Allow local customizations in the ~/.zshrc_local_after file
+if [ -f ~/.zshrc_local_after ]; then
+    source ~/.zshrc_local_after
+fi

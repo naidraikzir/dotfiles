@@ -907,6 +907,10 @@
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
+	<key>NeverWarnAboutShortLivedSessions_B885657B-665E-4088-B316-FFC063D9FF7C</key>
+	<true/>
+	<key>NeverWarnAboutShortLivedSessions_B885657B-665E-4088-B316-FFC063D9FF7C_selection</key>
+	<integer>0</integer>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1571,7 +1575,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>CascadiaCodePL-Regular 14</string>
+			<string>ComicMono 14</string>
 			<key>Option Key Sends</key>
 			<integer>2</integer>
 			<key>Prompt Before Closing 2</key>
