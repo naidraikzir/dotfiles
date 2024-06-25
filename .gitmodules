@@ -58,3 +58,4 @@
 [submodule "zsh/plugins/spaceship-prompt"]
 	path = zsh/plugins/spaceship-prompt
 	url = https://github.com/spaceship-prompt/spaceship-prompt
+	ignore = dirty
