@@ -15,6 +15,7 @@ brew install scrcpy
 brew install sheldon
 brew install speedtest
 brew install stow
+brew install zoxide
 
 brew install --cask kitty
 brew install --cask raycast

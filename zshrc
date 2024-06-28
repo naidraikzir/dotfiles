@@ -7,6 +7,7 @@ WORDCHARS=${WORDCHARS/\/}
 
 export SPACESHIP_CONFIG="$HOME/.dotfiles/zsh/spaceship.zsh"
 eval "$(sheldon source)"
+eval "$(zoxide init zsh)"
 
 export PATH="/usr/local/sbin:$PATH"
 export PATH="$PATH:$HOME/go/bin"
