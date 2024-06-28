@@ -8,6 +8,9 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
+# ls
+alias k="eza -l --icons --group-directories-first"
+
 # Git
 function git_develop_branch() {
   command git rev-parse --git-dir &>/dev/null || return
