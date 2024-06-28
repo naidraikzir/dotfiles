@@ -3,7 +3,7 @@ if [ -f ~/.zshrc_local_before ]; then
 fi
 
 setopt autocd
-WORDCHARS='_'
+WORDCHARS=${WORDCHARS/\/}
 
 export SPACESHIP_CONFIG="$HOME/.dotfiles/zsh/spaceship.zsh"
 eval "$(sheldon source)"
