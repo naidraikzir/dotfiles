@@ -2,6 +2,8 @@ if [ -f ~/.zshrc_local_before ]; then
     source ~/.zshrc_local_before
 fi
 
+setopt autocd
+
 export SPACESHIP_CONFIG="$HOME/.dotfiles/zsh/spaceship.zsh"
 eval "$(sheldon source)"
 

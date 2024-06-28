@@ -6,8 +6,8 @@
 - clean: ['~', '~/.config']
 
 - link:
-    ~/.config/kitty:kitty
-    ~/.config/sheldon:sheldon
+    ~/.config/kitty: kitty
+    ~/.config/sheldon: sheldon
     ~/.gitconfig:
     ~/.tmux.conf:
     ~/.vim:
