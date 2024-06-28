@@ -3,6 +3,7 @@ if [ -f ~/.zshrc_local_before ]; then
 fi
 
 setopt autocd
+WORDCHARS='_'
 
 export SPACESHIP_CONFIG="$HOME/.dotfiles/zsh/spaceship.zsh"
 eval "$(sheldon source)"
@@ -17,9 +18,6 @@ export ANDROID_HOME="$HOME/Library/Android/sdk"
 export PATH="$PATH:$ANDROID_HOME/tools"
 export PATH="$PATH:$ANDROID_HOME/tools/bin"
 export PATH="$PATH:$ANDROID_HOME/platform-tools"
-
-bindkey '^[[A' history-substring-search-up
-bindkey '^[[B' history-substring-search-down
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/naidraikzir/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/naidraikzir/google-cloud-sdk/path.zsh.inc'; fi
@@ -39,7 +37,7 @@ esac
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-
+source ~/.zsh/keybindings.zsh
 source ~/.zsh/aliases.zsh
 source ~/.zsh/plugins_after.zsh
 
