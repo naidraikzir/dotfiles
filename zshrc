@@ -3,6 +3,15 @@ if [ -f ~/.zshrc_local_before ]; then
 fi
 
 setopt autocd
+setopt no_case_glob
+setopt share_history
+setopt append_history
+setopt inc_append_history
+setopt hist_expire_dups_first
+setopt hist_ignore_dups
+setopt hist_find_no_dups
+setopt hist_reduce_blanks
+
 WORDCHARS=${WORDCHARS/\/}
 
 export SPACESHIP_CONFIG="$HOME/.dotfiles/zsh/spaceship.zsh"
