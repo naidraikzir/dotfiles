@@ -6,12 +6,10 @@ These are my dotfiles. I use [dotbot](https://github.com/anishathalye/dotbot) to
 
 - gitconfig
 - tmux
-- vim
 - zsh
 
 ## Plugins
 
-- [k](https://github.com/supercrabtree/k)
 - zsh-syntax-highlighting
+- zsh-history-substring-search
 - tmux-resurrect
-- vim-pathogen
