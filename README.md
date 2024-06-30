@@ -1,7 +1,5 @@
 # Dotfiles 🔨
 
-These are my dotfiles. I use [dotbot](https://github.com/anishathalye/dotbot) to install them.
-
 ## Contents
 
 - gitconfig

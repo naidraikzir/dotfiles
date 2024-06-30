@@ -14,7 +14,7 @@ setopt hist_reduce_blanks
 
 WORDCHARS='_'
 
-export SPACESHIP_CONFIG="$HOME/.dotfiles/zsh/spaceship.zsh"
+export SPACESHIP_CONFIG="$HOME/.zsh/spaceship.zsh"
 eval "$(sheldon source)"
 source <(fzf --zsh)
 eval "$(zoxide init zsh)"
