@@ -8,6 +8,9 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
+# cd
+alias cd="z"
+
 # ls
 alias k="eza -l --icons --group-directories-first"
 

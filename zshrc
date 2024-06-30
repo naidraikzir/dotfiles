@@ -12,10 +12,11 @@ setopt hist_ignore_dups
 setopt hist_find_no_dups
 setopt hist_reduce_blanks
 
-WORDCHARS=${WORDCHARS/\/}
+WORDCHARS='_'
 
 export SPACESHIP_CONFIG="$HOME/.dotfiles/zsh/spaceship.zsh"
 eval "$(sheldon source)"
+source <(fzf --zsh)
 eval "$(zoxide init zsh)"
 
 export PATH="/usr/local/sbin:$PATH"
