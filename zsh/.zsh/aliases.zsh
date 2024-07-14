@@ -14,6 +14,9 @@ alias cd="z"
 # ls
 alias k="eza -l --icons --group-directories-first"
 
+# cat
+alias cat="bat"
+
 # Git
 function git_develop_branch() {
   command git rev-parse --git-dir &>/dev/null || return
