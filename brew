@@ -9,6 +9,7 @@ brew install eza
 brew install fastfetch
 brew install ffmpeg
 brew install fnm
+brew install font-comic-shanns-mono-nerd-font
 brew install fzf
 brew install git
 brew install hyperkey
