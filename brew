@@ -9,18 +9,19 @@ brew install eza
 brew install fastfetch
 brew install ffmpeg
 brew install fnm
-brew install font-comic-shanns-mono-nerd-font
 brew install fzf
-brew install git
-brew install hyperkey
 brew install localsend
 brew install pnpm
 brew install scrcpy
 brew install sheldon
-brew install speedtest
 brew install stow
 brew install zoxide
 
+brew install --cask font-comic-shanns-mono-nerd-font
+brew install --cask hyperkey
 brew install --cask kitty
 brew install --cask raycast
 brew install --cask transmission
+
+brew tap showwin/speedtest
+brew install speedtest
