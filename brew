@@ -19,17 +19,27 @@ brew install zoxide
 brew install --cask appcleaner
 brew install --cask cloudflare-warp
 brew install --cask font-comic-shanns-mono-nerd-font
+brew install --cask grandperspective
+brew install --cask handbrake
 brew install --cask hyperkey
+brew install --cask iina
 brew install --cask kitty
 brew install --cask loading
 brew install --cask localsend
+brew install --cask nuclino
+brew install --cask ocenaudio
 brew install --cask only-switch
 brew install --cask raycast
+brew install --cask react-native-debugger
 brew install --cask shottr
 brew install --cask stats
+brew install --cask --no-quarantine syntax-highlight
+brew install --cask tableplus
 brew install --cask the-unarchiver
 brew install --cask transmission
+brew install --cask upscayl
 brew install --cask vscodium
+brew install --cask zed
 
 brew tap showwin/speedtest
 brew install speedtest
