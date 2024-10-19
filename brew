@@ -29,9 +29,11 @@ brew install --cask localsend
 brew install --cask nuclino
 brew install --cask ocenaudio
 brew install --cask only-switch
+brew install --cask orbstack
 brew install --cask raycast
 brew install --cask react-native-debugger
 brew install --cask shottr
+brew install --cask sloth
 brew install --cask stats
 brew install --cask --no-quarantine syntax-highlight
 brew install --cask tableplus
