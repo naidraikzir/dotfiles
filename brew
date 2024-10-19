@@ -16,12 +16,18 @@ brew install sheldon
 brew install stow
 brew install zoxide
 
+brew install --cask appcleaner
+brew install --cask cloudflare-warp
 brew install --cask font-comic-shanns-mono-nerd-font
 brew install --cask hyperkey
 brew install --cask kitty
+brew install --cask loading
 brew install --cask localsend
+brew install --cask only-switch
 brew install --cask raycast
+brew install --cask shottr
 brew install --cask stats
+brew install --cask the-unarchiver
 brew install --cask transmission
 brew install --cask vscodium
 
