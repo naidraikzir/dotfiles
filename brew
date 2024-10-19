@@ -21,7 +21,9 @@ brew install --cask hyperkey
 brew install --cask kitty
 brew install --cask localsend
 brew install --cask raycast
+brew install --cask stats
 brew install --cask transmission
+brew install --cask vscodium
 
 brew tap showwin/speedtest
 brew install speedtest
