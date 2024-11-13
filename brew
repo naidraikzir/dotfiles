@@ -17,7 +17,6 @@ brew install stow
 brew install zoxide
 
 brew install --cask appcleaner
-brew install --cask brightintosh
 brew install --cask cloudflare-warp
 brew install --cask font-comic-shanns-mono-nerd-font
 brew install --cask grandperspective
