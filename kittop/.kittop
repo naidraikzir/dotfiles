@@ -1,0 +1,1 @@
+kitty -c ~/.config/kittop/conf --hold --start-as=maximized
