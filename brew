@@ -5,6 +5,7 @@ brew update
 brew upgrade
 
 brew install bat
+brew install btop
 brew install eza
 brew install fastfetch
 brew install ffmpeg
