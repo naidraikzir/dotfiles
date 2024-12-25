@@ -19,6 +19,7 @@ brew install tealdeer
 brew install zoxide
 
 brew install --cask appcleaner
+brew install --cask alt-tab
 brew install --cask brightintosh
 brew install --cask cloudflare-warp
 brew install --cask font-comic-shanns-mono-nerd-font
