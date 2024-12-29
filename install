@@ -3,4 +3,4 @@
 set -e
 
 git submodule update --init --recursive
-stow git kitty sheldon tmux zsh btop kittop
+stow git kitty ghostty sheldon tmux zsh btop kittop

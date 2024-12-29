@@ -23,6 +23,7 @@ brew install --cask alt-tab
 brew install --cask brightintosh
 brew install --cask cloudflare-warp
 brew install --cask font-comic-shanns-mono-nerd-font
+brew install --cask ghostty
 brew install --cask grandperspective
 brew install --cask handbrake
 brew install --cask hyperkey
