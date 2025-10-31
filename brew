@@ -11,6 +11,8 @@ brew install fastfetch
 brew install ffmpeg
 brew install fnm
 brew install fzf
+brew install git-delta
+brew install mas
 brew install pnpm
 brew install scrcpy
 brew install sheldon
@@ -23,9 +25,12 @@ brew install speedtest
 
 brew install --cask appcleaner
 brew install --cask alt-tab
-brew install --cask brightintosh
+brew install --cask batfi
+brew install --cask brave-browser
 brew install --cask cloudflare-warp
+brew install --cask deskpad
 brew install --cask font-comic-shanns-mono-nerd-font
+brew install --cask fujifilm-x-raw-studio
 brew install --cask ghostty
 brew install --cask grandperspective
 brew install --cask handbrake
@@ -51,3 +56,5 @@ brew install --cask upscayl
 brew install --cask vscodium
 brew install --cask th-ch/youtube-music/youtube-music
 brew install --cask zed
+
+mas install 6452471855 # Brightintosh

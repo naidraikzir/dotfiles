@@ -4,6 +4,9 @@
 [core]
 	editor = vim
 	excludesfile = ~/.gitignore
+	pager = delta --side-by-side
+[delta]
+	navigate = true
 [http]
 	postBuffer = 1048576000000
 [rerere]
