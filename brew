@@ -58,3 +58,4 @@ brew install --cask th-ch/youtube-music/youtube-music
 brew install --cask zed
 
 mas install 6452471855 # Brightintosh
+mas install 1545870783 # System Color Picker
