@@ -1,0 +1,112 @@
+{
+  "agent": {
+    "dock": "left"
+  },
+  "auto_install_extensions": {
+    "bearded-icon-theme": true,
+    "biome": true,
+    "blade-runner-2049": true,
+    "catppuccin-blur": true,
+    "charmed-icons": true,
+    "dockerfile": true,
+    "emmet": true,
+    "env": true,
+    "git-firefly": true,
+    "html": true,
+    "mcp-server-context7": true,
+    "rainbow-csv": true,
+    "sql": true,
+    "svelte": true,
+    "toml": true,
+    "tsar": true,
+    "tsarcasm": true,
+    "vue": true,
+    "zig": true
+  },
+  "auto_update": false,
+  "buffer_font_family": "Comic Code",
+  "buffer_font_size": 14,
+  "buffer_line_height": "comfortable",
+  "buffer_font_weight": 600,
+  "edit_predictions": {
+    "copilot": {
+      "proxy": null,
+      "proxy_no_verify": null
+    },
+    "enabled_in_text_threads": false,
+    "mode": "eager"
+  },
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "format_on_save": "off",
+  "git": {
+    "inline_blame": {
+      "enabled": true,
+      "show_commit_summary": true,
+      "min_column": 50,
+      "delay_ms": 500
+    }
+  },
+  "icon_theme": "Base Charmed Icons",
+  "indent_guides": {
+    "active_line_width": 1,
+    "coloring": "indent_aware",
+    "line_width": 1
+  },
+  "languages": {
+    "TypeScript": {
+      "language_servers": ["tsgo", "vtsls"]
+    }
+  },
+  "lsp": {
+    "biome": {
+      "settings": {
+        "require_config_file": true
+      }
+    },
+    "vscode-css-language-server": {
+      "settings": {
+        "css": {
+          "lint": {
+            "unknownAtRules": "ignore"
+          }
+        }
+      }
+    }
+  },
+  "minimap": {
+    "show": "always"
+  },
+  "project_panel": {
+    "dock": "right",
+    "entry_spacing": "standard"
+  },
+  "search": {
+    "case_sensitive": true
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "terminal": {
+    "cursor_shape": "underline",
+    "line_height": {
+      "custom": 1.2
+    },
+    "font_family": "Comic Code Ligatures",
+    "font_size": 12
+  },
+  "theme": "Poimandres (black)",
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": true
+  },
+  "ui_font_family": "Comic Code",
+  "ui_font_size": 14,
+  "ui_font_weight": 500
+}
