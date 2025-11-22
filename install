@@ -3,4 +3,10 @@
 set -e
 
 git submodule update --init --recursive
-stow git kitty ghostty sheldon tmux zsh btop kittop
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew update
+brew upgrade
+brew bundle
+
+stow btop ghostty git sheldon tmux zsh
