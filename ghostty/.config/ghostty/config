@@ -27,6 +27,8 @@ palette                     = 13=#fae4fc
 palette                     = 14=#89ddff
 palette                     = 15=#ffffff
 background                  = #000000
+background-blur             = true
+background-opacity          = 0.75
 foreground                  = #ffffff
 selection-background        = #666666
 selection-foreground        = #ffffff

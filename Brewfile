@@ -40,7 +40,6 @@ cask "only-switch"
 cask "orbstack"
 cask "raycast"
 cask "react-native-debugger"
-cask "shottr"
 cask "sloth"
 cask "stats"
 cask "syntax-highlight", args: { skip_cask_deps: true, install_options: ["--no-quarantine"] }
