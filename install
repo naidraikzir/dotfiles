@@ -9,4 +9,4 @@ brew update
 brew upgrade
 brew bundle
 
-stow btop ghostty git sheldon tmux zed zsh
+stow --no-folding stow btop ghostty git sheldon tmux zed zsh
