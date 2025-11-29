@@ -15,7 +15,6 @@ brew "tealdeer"
 brew "zoxide"
 
 tap "showwin/speedtest"
-
 brew "speedtest"
 
 cask "appcleaner"
@@ -37,6 +36,7 @@ cask "neved4/homebrew-tap/pear"
 cask "nuclino"
 cask "ocenaudio"
 cask "only-switch"
+cask "openmtp"
 cask "orbstack"
 cask "raycast"
 cask "react-native-debugger"

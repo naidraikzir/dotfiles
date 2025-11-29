@@ -2,11 +2,13 @@
   "agent": {
     "dock": "left"
   },
+  "agent_servers": {
+    "gemini": {
+      "ignore_system_version": true
+    }
+  },
   "auto_install_extensions": {
-    "bearded-icon-theme": true,
     "biome": true,
-    "blade-runner-2049": true,
-    "catppuccin-blur": true,
     "charmed-icons": true,
     "dockerfile": true,
     "emmet": true,
@@ -18,8 +20,7 @@
     "sql": true,
     "svelte": true,
     "toml": true,
-    "tsar": true,
-    "tsarcasm": true,
+    "tsgo": true,
     "vue": true,
     "zig": true
   },
@@ -67,6 +68,9 @@
     },
     "tailwindcss-language-server": {
       "settings": {
+        "files": {
+          "exclude": ["**/components/ui/**"]
+        },
         "experimental": {
           "classRegex": [
             "(?:\\w+ClassName)=\\s*['\"]([^'\"]*)['\"]"
@@ -107,7 +111,7 @@
     "line_height": {
       "custom": 1.2
     },
-    "font_family": "Comic Code Ligatures",
+    "font_family": "ComicShannsMono Nerd Font",
     "font_size": 12
   },
   "theme": "Poimandres (black)",
