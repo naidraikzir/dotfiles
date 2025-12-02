@@ -1,5 +1,6 @@
 brew "bat"
 brew "btop"
+brew "diffnav"
 brew "eza"
 brew "fastfetch"
 brew "ffmpeg"
