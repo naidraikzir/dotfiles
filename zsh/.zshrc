@@ -26,6 +26,7 @@ export ANDROID_HOME="$HOME/Library/Android/sdk"
 export PATH="$PATH:$ANDROID_HOME/tools"
 export PATH="$PATH:$ANDROID_HOME/tools/bin"
 export PATH="$PATH:$ANDROID_HOME/platform-tools"
+. "$HOME/.cargo/env"
 
 eval "$(fnm env --use-on-cd)"
 
@@ -34,10 +35,6 @@ case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
-
-[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
 
 source ~/.zsh/keybindings.zsh
 source ~/.zsh/aliases.zsh

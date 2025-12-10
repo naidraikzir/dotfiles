@@ -67,6 +67,11 @@
         "require_config_file": true
       }
     },
+    "eslint": {
+      "settings": {
+        "onIgnoredFiles": "off"
+      }
+    },
     "tailwindcss-language-server": {
       "settings": {
         "files": {
