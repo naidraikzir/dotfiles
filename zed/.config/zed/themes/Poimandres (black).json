@@ -94,7 +94,7 @@
         "scrollbar.thumb.hover_background": "#22222299",
         "scrollbar.track.background": "#00000000",
         "scrollbar.track.border": "#00000000",
-        "search.match_background": null,
+        "search.match_background": "#ee229988",
         "status_bar.background": "#00000099",
         "success": null,
         "success.background": "#181d20",

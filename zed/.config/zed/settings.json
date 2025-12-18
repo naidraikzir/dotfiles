@@ -2,11 +2,6 @@
   "agent": {
     "dock": "left"
   },
-  "agent_servers": {
-    "gemini": {
-      "ignore_system_version": false
-    }
-  },
   "auto_install_extensions": {
     "biome": true,
     "charmed-icons": true,
@@ -55,11 +50,6 @@
     "active_line_width": 1,
     "coloring": "indent_aware",
     "line_width": 1
-  },
-  "languages": {
-    "TypeScript": {
-      "language_servers": ["tsgo", "vtsls"]
-    }
   },
   "lsp": {
     "biome": {
