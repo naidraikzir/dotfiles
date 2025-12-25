@@ -1,0 +1,12 @@
+[
+  {
+    "bindings": {
+      "ctrl-alt-cmd-shift-s": [
+        "workspace::MoveItemToPaneInDirection",
+        {
+          "direction": "right"
+        }
+      ]
+    }
+  }
+]

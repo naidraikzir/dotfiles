@@ -15,7 +15,6 @@
     "sql": true,
     "svelte": true,
     "toml": true,
-    "tsgo": true,
     "vue": true,
     "zig": true
   },
