@@ -1,0 +1,197 @@
+{
+	"[dart]": {
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": "off",
+		"editor.selectionHighlight": false,
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [
+			80
+		]
+	},
+	"[html]": {
+		"editor.tabSize": 2,
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[javascript]": {
+		"editor.tabSize": 2,
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[markdown]": {
+		"editor.tabSize": 2,
+		"files.trimTrailingWhitespace": false
+	},
+	"[scss]": {
+		"editor.tabSize": 2
+	},
+	"[svelte]": {
+		"editor.tabSize": 4,
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"[svg]": {
+		"editor.defaultFormatter": "redhat.vscode-xml"
+	},
+	"[typescript]": {
+		"editor.tabSize": 2,
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[typescriptreact]": {
+		"editor.tabSize": 2,
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[vue]": {
+		"editor.tabSize": 2,
+		"editor.defaultFormatter": "biomejs.biome",
+		"editor.formatOnSave": true
+	},
+	"biome.suggestInstallingGlobally": false,
+	"breadcrumbs.enabled": false,
+	"color-highlight.languages": [
+		"apacheconf",
+		"html",
+		"css",
+		"json",
+		"scss",
+		"svelte",
+		"svg",
+		"javascript",
+		"toml",
+		"typescript",
+		"typescriptreact",
+		"vue"
+	],
+	"custom-ui-style.font.sansSerif": "Comic Code, Sligoil, Menlo, Monaco, 'Courier New', monospace",
+	"custom-ui-style.electron": {
+		"backgroundColor": "#0000",
+		"frame": false,
+		"transparent": true,
+		"vibrancy": "fullscreen-ui"
+	},
+	"custom-ui-style.stylesheet": {
+		"html, body, .monaco-workbench": {
+			"background": "transparent !important"
+		},
+		".letterpress": {
+			"display": "none"
+		},
+		".monaco-list-rows": {
+			"background": "transparent !important"
+		},
+		".sticky-widget": {
+			"backdrop-filter": "blur(8px)"
+		}
+	},
+	"diffEditor.codeLens": true,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.accessibilitySupport": "off",
+	"editor.cursorBlinking": "smooth",
+	"editor.fontFamily": "Comic Code, Sligoil, Menlo, Monaco, 'Courier New', monospace",
+	"editor.fontLigatures": "'calt'",
+	"editor.fontSize": 14,
+	"editor.guides.highlightActiveIndentation": true,
+	"editor.inlineSuggest.enabled": true,
+	"editor.inlineSuggest.suppressSuggestions": true,
+	"editor.linkedEditing": true,
+	"editor.lineHeight": 24,
+	"editor.minimap.showSlider": "always",
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.renderControlCharacters": false,
+	"editor.renderLineHighlight": "none",
+	"editor.renderWhitespace": "none",
+	"editor.snippetSuggestions": "bottom",
+	"editor.stickyScroll.enabled": true,
+	"eslint.validate": [
+		"vue",
+		"javascript",
+		"svelte"
+	],
+	"explorer.compactFolders": true,
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"extensions.ignoreRecommendations": true,
+	"files.associations": {
+		".prettierrc": "yaml",
+		".lintstagedrc": "json"
+	},
+	"files.autoSave": "off",
+	"files.autoSaveDelay": 750,
+	"files.exclude": {
+		"**/.DS_Store": false
+	},
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true,
+	"geminicodeassist.displayInlineContextHint": false,
+	"geminicodeassist.enableTelemetry": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"react-native-tools.showUserTips": false,
+	"redhat.telemetry.enabled": false,
+	"search.useIgnoreFiles": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"svelte.enable-ts-plugin": true,
+	"symbols.hidesExplorerArrows": true,
+	"tailwindCSS.emmetCompletions": true,
+	"telemetry.telemetryLevel": "off",
+	"terminal.integrated.cursorStyle": "underline",
+	"terminal.integrated.fontFamily": "ComicShannsMono Nerd Font, Sligoil, Menlo, Monaco, 'Courier New', monospace",
+	"terminal.integrated.fontSize": 14,
+	"terminal.integrated.gpuAcceleration": "on",
+	"todohighlight.isEnable": false,
+	"typescript.preferences.jsxAttributeCompletionStyle": "none",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"update.mode": "none",
+	"vite.autoStart": false,
+	"vite.browserType": "system",
+	"window.commandCenter": false,
+	"window.customTitleBarVisibility": "never",
+	"window.titleBarStyle": "native",
+	"window.zoomLevel": -0.25,
+	"workbench.activityBar.location": "bottom",
+	"workbench.colorCustomizations": {
+		"breadcrumb.background": "#0000",
+		"editor.background": "#0003",
+		"editor.foreground": "#fff",
+		"editor.selectionBackground": "#333",
+		"editorGroupHeader.tabsBackground": "#0007",
+		"editorGutter.background": "#0003",
+		"editorGroup.emptyBackground": "#0007",
+		"editorGutter.addedBackground": "#5fb3a1",
+		"editorGutter.deletedBackground": "#a35",
+		"editorGutter.modifiedBackground": "#add7ff",
+		"editorIndentGuide.activeBackground1": "#333",
+		"editorIndentGuide.background1": "#000",
+		"editorLineNumber.activeForeground": "#fff",
+		"editorLineNumber.foreground": "#444",
+		"editorOverviewRuler.background": "#0000",
+		"minimap.background": "#0000",
+		"minimapSlider.background": "#ccc1",
+		"panel.background": "#0009",
+		"scrollbar.background": "#0000",
+		"scrollbarSlider.activeBackground": "#fff3",
+		"scrollbarSlider.background": "#ccc1",
+		"scrollbarSlider.hoverBackground": "#fff1",
+		"sideBar.background": "#0009",
+		"sideBarSectionHeader.background": "#0000",
+		"sideBarTitle.background": "#0000",
+		"statusBar.background": "#0009",
+		"statusBarItem.remoteBackground": "#000",
+		"tab.inactiveBackground": "#0000",
+		"terminal.background": "#0000",
+		"titleBar.activeBackground": "#0000"
+	},
+	"workbench.colorTheme": "poimandres",
+	"workbench.editor.labelFormat": "short",
+	"workbench.editor.wrapTabs": true,
+	"workbench.iconTheme": "charmed-icons",
+	"workbench.layoutControl.enabled": false,
+	"workbench.sideBar.location": "right",
+	"workbench.startupEditor": "none",
+	"workbench.tree.indent": 20
+}

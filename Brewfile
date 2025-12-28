@@ -46,6 +46,7 @@ cask "orbstack"
 cask "portkiller"
 cask "raycast"
 cask "react-native-debugger"
+cask "shotcut"
 cask "sloth"
 cask "stats"
 cask "syntax-highlight", args: { skip_cask_deps: true, install_options: ["--no-quarantine"] }

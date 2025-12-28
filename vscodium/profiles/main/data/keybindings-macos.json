@@ -1,0 +1,4 @@
+[{
+    "key": "cmd+w",
+    "command": "-workbench.action.closeWindow"
+}]
