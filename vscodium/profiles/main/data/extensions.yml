@@ -76,6 +76,8 @@ enabled:
     uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
   - id: tinaciousdesign.theme-tinaciousdesign
     uuid: null
+  - id: TypeScriptTeam.native-preview
+    uuid: null
   - id: Tyriar.lorem-ipsum
     uuid: null
   - id: usernamehw.errorlens

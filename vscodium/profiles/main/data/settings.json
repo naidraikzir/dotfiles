@@ -86,7 +86,10 @@
 			"background": "transparent !important"
 		},
 		".sticky-widget": {
-			"backdrop-filter": "blur(8px)"
+			"backdrop-filter": "blur(12px)"
+		},
+		".quick-input-widget": {
+			"backdrop-filter": "blur(12px)"
 		}
 	},
 	"diffEditor.codeLens": true,
@@ -144,6 +147,7 @@
 	"terminal.integrated.fontSize": 14,
 	"terminal.integrated.gpuAcceleration": "on",
 	"todohighlight.isEnable": false,
+	"typescript.experimental.useTsgo": true,
 	"typescript.preferences.jsxAttributeCompletionStyle": "none",
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"update.mode": "none",
@@ -159,10 +163,10 @@
 		"editor.background": "#0003",
 		"editor.foreground": "#fff",
 		"editor.selectionBackground": "#333",
-		"editorGroupHeader.tabsBackground": "#0007",
-		"editorGutter.background": "#0003",
 		"editorGroup.emptyBackground": "#0007",
+		"editorGroupHeader.tabsBackground": "#0007",
 		"editorGutter.addedBackground": "#5fb3a1",
+		"editorGutter.background": "#0003",
 		"editorGutter.deletedBackground": "#a35",
 		"editorGutter.modifiedBackground": "#add7ff",
 		"editorIndentGuide.activeBackground1": "#333",
@@ -173,6 +177,7 @@
 		"minimap.background": "#0000",
 		"minimapSlider.background": "#ccc1",
 		"panel.background": "#0009",
+		"quickInput.background": "#0009",
 		"scrollbar.background": "#0000",
 		"scrollbarSlider.activeBackground": "#fff3",
 		"scrollbarSlider.background": "#ccc1",

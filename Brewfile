@@ -18,9 +18,6 @@ brew "stow"
 brew "tealdeer"
 brew "zoxide"
 
-tap "showwin/speedtest"
-brew "speedtest"
-
 cask "appcleaner"
 cask "alt-tab"
 cask "batfi"
