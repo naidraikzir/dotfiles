@@ -34,7 +34,6 @@ cask "iina"
 cask "loading"
 cask "localsend"
 cask "neohtop"
-cask "neved4/homebrew-tap/pear"
 cask "nuclino"
 cask "ocenaudio"
 cask "only-switch"
@@ -53,6 +52,9 @@ cask "transmission"
 cask "upscayl"
 cask "vscodium"
 cask "zed"
+
+tap "sozercan/kaset", "https://github.com/sozercan/kaset"
+cask "kaset"
 
 mas "Brightintosh", id: 6452471855
 mas "System Color Picker", id: 1545870783

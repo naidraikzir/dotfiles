@@ -9,6 +9,7 @@ font-size                   = 16
 
 cursor-style                = underline
 cursor-style-blink          = false
+adjust-cursor-thickness     = 6
 
 palette                     = 0=#666666
 palette                     = 1=#d0679d
