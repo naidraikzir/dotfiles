@@ -14,9 +14,12 @@ setopt hist_reduce_blanks
 
 WORDCHARS='_'
 
+autoload -Uz compinit
+compinit -u
+
 export SPACESHIP_CONFIG="$HOME/.zsh/spaceship.zsh"
-eval "$(sheldon source)"
 source <(fzf --zsh)
+eval "$(sheldon source)"
 eval "$(zoxide init zsh)"
 
 export PATH="/usr/local/sbin:$PATH"
