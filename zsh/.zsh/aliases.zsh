@@ -15,7 +15,7 @@ alias cd="z"
 alias k="eza -l --icons --group-directories-first"
 
 # cat
-alias cat="bat"
+alias cat="bat -P"
 
 # Git
 function git_develop_branch() {
