@@ -4,8 +4,8 @@ shell-integration-features  = no-cursor
 
 macos-titlebar-style        = tabs
 
-font-family                 = ComicShannsMono Nerd Font
-font-size                   = 16
+font-family                 = Comic Code Ligatures
+font-size                   = 14
 
 cursor-style                = underline
 cursor-style-blink          = false

@@ -19,7 +19,7 @@
     "zig": true
   },
   "auto_update": false,
-  "buffer_font_family": "Comic Code",
+  "buffer_font_family": "Comic Code Ligatures",
   "buffer_font_size": 14,
   "buffer_line_height": "comfortable",
   "buffer_font_weight": 600,
@@ -30,10 +30,8 @@
       "proxy_no_verify": null
     },
     "enabled_in_text_threads": false,
-    "mode": "eager"
-  },
-  "features": {
-    "edit_prediction_provider": "zed"
+    "mode": "eager",
+    "provider": "zed"
   },
   "format_on_save": "off",
   "git": {
@@ -56,6 +54,21 @@
     }
   },
   "lsp": {
+    "vtsls": {
+      "enable_lsp_tasks": true,
+      "settings": {
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        }
+      }
+    },
     "biome": {
       "settings": {
         "require_config_file": true
@@ -111,7 +124,7 @@
     "line_height": {
       "custom": 1.2
     },
-    "font_family": "ComicShannsMono Nerd Font",
+    "font_family": "Comic Code Ligatures",
     "font_size": 12
   },
   "theme": "Poimandres (black)",
@@ -119,7 +132,7 @@
     "breadcrumbs": true,
     "quick_actions": true
   },
-  "ui_font_family": "Comic Code",
+  "ui_font_family": "Comic Code Ligatures",
   "ui_font_size": 14,
   "ui_font_weight": 500
 }
