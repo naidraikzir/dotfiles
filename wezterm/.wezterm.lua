@@ -4,8 +4,10 @@ local config = wezterm.config_builder()
 
 local transparent = 'rgba(0, 0, 0, 0)'
 
+config.check_for_updates = false
+
 config.font = wezterm.font('Comic Code Ligatures')
-config.font_size = 14.0
+config.font_size = 14
 config.line_height = 1
 config.default_cursor_style = 'SteadyUnderline'
 
@@ -17,10 +19,12 @@ config.macos_window_background_blur = 15
 config.window_frame = {
     active_titlebar_bg = transparent,
     inactive_titlebar_bg = transparent,
+    font = require('wezterm').font 'Comic Code Ligatures',
+    font_size = 12,
 }
 config.scrollback_lines = 100000
 config.enable_scroll_bar = true
-config.use_fancy_tab_bar = false
+config.use_fancy_tab_bar = true
 config.tab_max_width = 32
 
 local function basename(s)
@@ -77,6 +81,7 @@ config.colors = {
         '#add7ff', -- 6
         '#dddddd', -- 7
     },
+
     brights = {
         '#bbbbbb', -- 8
         '#d0679d', -- 9
@@ -89,15 +94,13 @@ config.colors = {
     },
 
     tab_bar = {
-        background = transparent,
-
         active_tab = {
-            bg_color = '#333333',
+            bg_color = '#222222',
             fg_color = '#ffffff',
         },
 
         inactive_tab = {
-            bg_color = transparent,
+            bg_color = '#000000',
             fg_color = '#bbbbbb',
         },
 
