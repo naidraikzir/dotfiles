@@ -8,14 +8,14 @@ config.check_for_updates = false
 
 config.font = wezterm.font('Comic Code Ligatures')
 config.font_size = 14
-config.line_height = 1
+config.line_height = 1.1
 config.default_cursor_style = 'SteadyUnderline'
 
 config.window_padding = { left = '5px', right = '5px', top = '15px', bottom = '5px' }
 config.window_decorations = 'RESIZE'
 config.native_macos_fullscreen_mode = false
 config.window_background_opacity = 0.75
-config.macos_window_background_blur = 15
+config.macos_window_background_blur = 20
 config.window_frame = {
     active_titlebar_bg = transparent,
     inactive_titlebar_bg = transparent,

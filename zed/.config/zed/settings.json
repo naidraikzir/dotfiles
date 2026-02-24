@@ -19,10 +19,11 @@
     "zig": true
   },
   "auto_update": false,
-  "buffer_font_family": "Comic Code Ligatures",
+  "buffer_font_fallbacks": ["ComicShannsMono Nerd Font"],
+  "buffer_font_family": "Comic Code",
   "buffer_font_size": 14,
   "buffer_line_height": "comfortable",
-  "buffer_font_weight": 600,
+  "buffer_font_weight": 500,
   "colorize_brackets": true,
   "edit_predictions": {
     "copilot": {
