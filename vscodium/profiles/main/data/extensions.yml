@@ -1,6 +1,10 @@
 disabled:
-  - id: oxc.oxc-vscode
-    uuid: 1303f9b3-746c-42de-869c-5f72364302f5
+  - id: Dart-Code.dart-code
+    uuid: 00000000-0000-0000-0000-000000000000
+  - id: lukinco.lukin-vscode-theme
+    uuid: aee491c8-c21f-44f0-af2c-5669e9426874
+  - id: rust-lang.rust-analyzer
+    uuid: 06574cb4-e5dc-4631-8174-a543a4533621
   - id: wix.vscode-import-cost
     uuid: c46b0018-f317-4b6c-a785-d2039b27338f
   - id: ziglang.vscode-zig
@@ -24,8 +28,6 @@ enabled:
     uuid: dff6b801-247e-40e9-82e8-8c9b1d19d1b8
   - id: csstools.postcss
     uuid: 80def04d-6d01-495b-9d59-4ad19408872f
-  - id: Dart-Code.dart-code
-    uuid: f57f68ea-9ee8-42b5-9a97-041d3e4278c4
   - id: dbaeumer.vscode-eslint
     uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
   - id: donjayamanne.githistory
@@ -50,10 +52,8 @@ enabled:
     uuid: cc99333f-dc9c-4f2d-8763-61cae062f51c
   - id: littensy.charmed-icons
     uuid: aacf78fe-afa7-45eb-b021-28fa46e29584
-  - id: lukinco.lukin-vscode-theme
-    uuid: aee491c8-c21f-44f0-af2c-5669e9426874
   - id: miguelsolorio.symbols
-    uuid: null
+    uuid: cb54c3b9-1c64-4c4a-8b5a-887270ffe4b6
   - id: mrmlnc.vscode-apache
     uuid: 085342db-9568-49b0-ad93-3223ac4c1baa
   - id: ms-playwright.playwright
@@ -62,10 +62,10 @@ enabled:
     uuid: b35cd5b4-18db-46f9-ba9e-06096c3b22d3
   - id: naumovs.color-highlight
     uuid: 121396ad-85a1-45ec-9fd1-d95028a847f5
+  - id: oxc.oxc-vscode
+    uuid: 1303f9b3-746c-42de-869c-5f72364302f5
   - id: redhat.vscode-xml
     uuid: 6703768d-d42f-474e-9f6e-5f288d53f6e8
-  - id: rust-lang.rust-analyzer
-    uuid: 06574cb4-e5dc-4631-8174-a543a4533621
   - id: styled-components.vscode-styled-components
     uuid: 22a740c5-ec07-4bf0-a58f-1a38aabea310
   - id: subframe7536.custom-ui-style
@@ -82,6 +82,8 @@ enabled:
     uuid: null
   - id: usernamehw.errorlens
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
+  - id: vlanguage.vscode-vlang
+    uuid: df4335ce-aaa2-4957-bbe3-a8aabc9f48b5
   - id: Vue.volar
     uuid: a95ee795-1576-4ffa-acda-8d6e6a95c584
   - id: waderyan.gitblame

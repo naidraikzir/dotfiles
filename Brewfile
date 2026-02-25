@@ -24,6 +24,7 @@ cask "appcleaner"
 cask "aya"
 cask "batfi"
 cask "mhaeuser/mhaeuser/battery-toolkit"
+cask "TheBoredTeam/boring-notch/boring-notch", args: { install_options: ["--no-quarantine"] }
 cask "calendr"
 cask "cloudflare-warp"
 cask "deskpad"

@@ -2,6 +2,11 @@
   "agent": {
     "dock": "left"
   },
+  "agent_servers": {
+    "gemini": {
+      "args": ["--model", "gemini-2.5-pro"]
+    }
+  },
   "auto_install_extensions": {
     "biome": true,
     "charmed-icons": true,

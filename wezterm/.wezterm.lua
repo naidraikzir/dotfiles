@@ -14,17 +14,11 @@ config.default_cursor_style = 'SteadyUnderline'
 config.window_padding = { left = '5px', right = '5px', top = '15px', bottom = '5px' }
 config.window_decorations = 'RESIZE'
 config.native_macos_fullscreen_mode = false
-config.window_background_opacity = 0.75
-config.macos_window_background_blur = 20
-config.window_frame = {
-    active_titlebar_bg = transparent,
-    inactive_titlebar_bg = transparent,
-    font = require('wezterm').font 'Comic Code Ligatures',
-    font_size = 12,
-}
+config.window_background_opacity = 0.65
+config.macos_window_background_blur = 100
 config.scrollback_lines = 100000
 config.enable_scroll_bar = true
-config.use_fancy_tab_bar = true
+config.use_fancy_tab_bar = false
 config.tab_max_width = 32
 
 local function basename(s)
@@ -94,20 +88,24 @@ config.colors = {
     },
 
     tab_bar = {
+        background = 'rgba(0, 0, 0, 0.65)',
+
         active_tab = {
             bg_color = '#222222',
             fg_color = '#ffffff',
         },
 
         inactive_tab = {
-            bg_color = '#000000',
-            fg_color = '#bbbbbb',
+            bg_color = 'rgba(0, 0, 0, 0.65)',
+            fg_color = '#666666',
         },
 
         new_tab = {
-            bg_color = transparent,
-            fg_color = '#bbbbbb',
-        }
+            bg_color = 'rgba(0, 0, 0, 0.65)',
+            fg_color = '#666666',
+        },
+
+        inactive_tab_edge = transparent,
     }
 }
 

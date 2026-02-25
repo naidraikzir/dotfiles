@@ -52,6 +52,7 @@
 		"editor.defaultFormatter": "biomejs.biome",
 		"editor.formatOnSave": true
 	},
+	"biome.requireConfiguration": true,
 	"biome.suggestInstallingGlobally": false,
 	"breadcrumbs.enabled": false,
 	"color-highlight.languages": [
@@ -68,7 +69,7 @@
 		"typescriptreact",
 		"vue"
 	],
-	"custom-ui-style.font.sansSerif": "Comic Code, Sligoil, Menlo, Monaco, 'Courier New', monospace",
+	"custom-ui-style.font.sansSerif": "Comic Code Ligatures, Sligoil, Menlo, Monaco, Courier New, monospace",
 	"custom-ui-style.electron": {
 		"backgroundColor": "#0000",
 		"frame": false,
@@ -78,6 +79,9 @@
 	"custom-ui-style.stylesheet": {
 		"html, body, .monaco-workbench": {
 			"background": "transparent !important"
+		},
+		"app-file-autocomplete > .entity-picker": {
+			"backdrop-filter": "blur(12px)"
 		},
 		".letterpress": {
 			"display": "none"
@@ -96,7 +100,7 @@
 	"diffEditor.ignoreTrimWhitespace": false,
 	"editor.accessibilitySupport": "off",
 	"editor.cursorBlinking": "smooth",
-	"editor.fontFamily": "Comic Code, Sligoil, Menlo, Monaco, 'Courier New', monospace",
+	"editor.fontFamily": "Comic Code, Sligoil, Menlo, Monaco, Courier New, monospace",
 	"editor.fontLigatures": "'calt'",
 	"editor.fontSize": 14,
 	"editor.guides.highlightActiveIndentation": true,
@@ -131,9 +135,18 @@
 	},
 	"files.insertFinalNewline": true,
 	"files.trimTrailingWhitespace": true,
+	"geminicodeassist.agentYoloMode": true,
 	"geminicodeassist.displayInlineContextHint": false,
 	"geminicodeassist.enableTelemetry": false,
 	"javascript.updateImportsOnFileMove.enabled": "always",
+	"json.schemaDownload.trustedDomains": {
+		"https://schemastore.azurewebsites.net/": true,
+		"https://raw.githubusercontent.com/": true,
+		"https://www.schemastore.org/": true,
+		"https://json.schemastore.org/": true,
+		"https://json-schema.org/": true,
+		"https://biomejs.dev": true
+	},
 	"react-native-tools.showUserTips": false,
 	"redhat.telemetry.enabled": false,
 	"search.useIgnoreFiles": false,
@@ -143,11 +156,11 @@
 	"tailwindCSS.emmetCompletions": true,
 	"telemetry.telemetryLevel": "off",
 	"terminal.integrated.cursorStyle": "underline",
-	"terminal.integrated.fontFamily": "ComicShannsMono Nerd Font, Sligoil, Menlo, Monaco, 'Courier New', monospace",
+	"terminal.integrated.fontFamily": "Comic Code Ligatures, Sligoil, Menlo, Monaco, Courier New, monospace",
 	"terminal.integrated.fontSize": 14,
 	"terminal.integrated.gpuAcceleration": "on",
 	"todohighlight.isEnable": false,
-	"typescript.experimental.useTsgo": true,
+	"typescript.experimental.useTsgo": false,
 	"typescript.preferences.jsxAttributeCompletionStyle": "none",
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"update.mode": "none",
@@ -187,6 +200,7 @@
 		"sideBarTitle.background": "#0000",
 		"statusBar.background": "#0009",
 		"statusBarItem.remoteBackground": "#000",
+		"statusBarItem.warningForeground": "#000",
 		"tab.inactiveBackground": "#0000",
 		"terminal.background": "#0000",
 		"titleBar.activeBackground": "#0000"
