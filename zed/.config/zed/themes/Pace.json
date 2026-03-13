@@ -121,7 +121,8 @@
         "terminal.background": "#111827",
         "terminal.foreground": "#94A3B8",
         "title_bar.background": "#00000099",
-        "toolbar.background": "#00000000"
+        "toolbar.background": "#00000000",
+        "warning.background": "#999900"
       }
     }
   ]
