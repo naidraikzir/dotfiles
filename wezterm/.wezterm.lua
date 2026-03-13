@@ -2,7 +2,7 @@ local wezterm = require 'wezterm'
 
 local config = wezterm.config_builder()
 
-local transparent = 'rgba(0, 0, 0, 0)'
+local transparent = 'rgba(0, 0, 0, 0.65)'
 
 config.check_for_updates = false
 
@@ -18,8 +18,8 @@ config.window_background_opacity = 0.65
 config.macos_window_background_blur = 100
 config.scrollback_lines = 100000
 config.enable_scroll_bar = true
-config.use_fancy_tab_bar = false
 config.tab_max_width = 32
+config.use_fancy_tab_bar = false
 
 local function basename(s)
     return string.gsub(s, '(.*[/\\])(.*)', '%2')
@@ -88,20 +88,20 @@ config.colors = {
     },
 
     tab_bar = {
-        background = 'rgba(0, 0, 0, 0.65)',
+        background = transparent,
 
         active_tab = {
-            bg_color = '#222222',
+            bg_color = 'rgba(32, 32, 32, 0.65)',
             fg_color = '#ffffff',
         },
 
         inactive_tab = {
-            bg_color = 'rgba(0, 0, 0, 0.65)',
+            bg_color = transparent,
             fg_color = '#666666',
         },
 
         new_tab = {
-            bg_color = 'rgba(0, 0, 0, 0.65)',
+            bg_color = transparent,
             fg_color = '#666666',
         },
 

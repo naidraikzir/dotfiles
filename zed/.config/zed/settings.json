@@ -4,7 +4,7 @@
   },
   "agent_servers": {
     "gemini": {
-      "args": ["--model", "gemini-2.5-pro"]
+      "type": "registry"
     }
   },
   "auto_install_extensions": {
@@ -56,28 +56,23 @@
   },
   "languages": {
     "TypeScript": {
-      "language_servers": ["tsgo", "vtsls"]
+      "language_servers": ["vtsls"]
     }
   },
   "lsp": {
-    "vtsls": {
-      "enable_lsp_tasks": true,
-      "settings": {
-        "javascript": {
-          "updateImportsOnFileMove": {
-            "enabled": "always"
-          }
-        },
-        "typescript": {
-          "updateImportsOnFileMove": {
-            "enabled": "always"
+    "biome": {
+      "initialization_options": {
+        "inline_config": {
+          "css": {
+            "parser": {
+              "tailwindDirectives": true
+            }
           }
         }
-      }
-    },
-    "biome": {
+      },
       "settings": {
-        "require_config_file": true
+        "require_config_file": true,
+        "config_path": "./biome.json"
       }
     },
     "eslint": {
@@ -102,6 +97,21 @@
         "css": {
           "lint": {
             "unknownAtRules": "ignore"
+          }
+        }
+      }
+    },
+    "vtsls": {
+      "enable_lsp_tasks": true,
+      "settings": {
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
           }
         }
       }
@@ -133,7 +143,7 @@
     "font_family": "Comic Code Ligatures",
     "font_size": 12
   },
-  "theme": "Poimandres (black)",
+  "theme": "Pace Dark",
   "toolbar": {
     "breadcrumbs": true,
     "quick_actions": true
