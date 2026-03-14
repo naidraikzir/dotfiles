@@ -8,11 +8,9 @@
     }
   },
   "auto_install_extensions": {
-    "biome": true,
     "charmed-icons": true,
     "dockerfile": true,
     "emmet": true,
-    "env": true,
     "git-firefly": true,
     "html": true,
     "mcp-server-context7": true,
@@ -60,21 +58,6 @@
     }
   },
   "lsp": {
-    "biome": {
-      "initialization_options": {
-        "inline_config": {
-          "css": {
-            "parser": {
-              "tailwindDirectives": true
-            }
-          }
-        }
-      },
-      "settings": {
-        "require_config_file": true,
-        "config_path": "./biome.json"
-      }
-    },
     "eslint": {
       "settings": {
         "onIgnoredFiles": "off"

@@ -1,6 +1,23 @@
-if [ -f ~/.zshrc_local_before ]; then
-    source ~/.zshrc_local_before
-fi
+[[ -f ~/.zshrc_local_before ]] && source ~/.zshrc_local_before
+
+export WORDCHARS='_'
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+export PNPM_HOME="$HOME/Library/pnpm"
+export SPACESHIP_CONFIG="$HOME/.zsh/spaceship.zsh"
+
+typeset -U path
+path=(
+  /usr/local/sbin
+  $HOME/go/bin
+  $HOME/.composer/vendor/bin
+  $HOME/.bun/bin
+  $PNPM_HOME
+  $ANDROID_HOME/tools
+  $ANDROID_HOME/tools/bin
+  $ANDROID_HOME/platform-tools
+  $path
+)
+[[ -f "$HOME/.cargo/env" ]] && . "$HOME/.cargo/env"
 
 setopt autocd
 setopt no_case_glob
@@ -12,38 +29,28 @@ setopt hist_ignore_dups
 setopt hist_find_no_dups
 setopt hist_reduce_blanks
 
-WORDCHARS='_'
-
 autoload -Uz compinit
-compinit -u
 
-export SPACESHIP_CONFIG="$HOME/.zsh/spaceship.zsh"
-source <(fzf --zsh)
+zcompdump="${ZDOTDIR:-$HOME}/.zcompdump"
+
+if [[ -s "$zcompdump" && -n "$(find "$zcompdump" -mmm -1440 2>/dev/null)" ]]; then
+  compinit -u -C
+else
+  compinit -u
+fi
+
+if [[ -s "$zcompdump" && (! -f "$zcompdump.zwc" || "$zcompdump" -nt "$zcompdump.zwc") ]]; then
+  zcompile "$zcompdump"
+fi
+
 eval "$(sheldon source)"
 eval "$(zoxide init zsh)"
-
-export PATH="/usr/local/sbin:$PATH"
-export PATH="$PATH:$HOME/go/bin"
-export PATH="$PATH:$HOME/.composer/vendor/bin"
-export ANDROID_HOME="$HOME/Library/Android/sdk"
-export PATH="$PATH:$HOME/.bun/bin"
-export PATH="$PATH:$ANDROID_HOME/tools"
-export PATH="$PATH:$ANDROID_HOME/tools/bin"
-export PATH="$PATH:$ANDROID_HOME/platform-tools"
-. "$HOME/.cargo/env"
-
 eval "$(fnm env --use-on-cd)"
-
-export PNPM_HOME="$HOME/Library/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
+eval "$(fixit init --name tf zsh)"
+source <(fzf --zsh)
 
 source ~/.zsh/keybindings.zsh
 source ~/.zsh/aliases.zsh
 source ~/.zsh/plugins_after.zsh
 
-if [ -f ~/.zshrc_local_after ]; then
-    source ~/.zshrc_local_after
-fi
+[[ -f ~/.zshrc_local_after ]] && source ~/.zshrc_local_after
