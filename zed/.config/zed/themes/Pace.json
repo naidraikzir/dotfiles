@@ -118,7 +118,7 @@
         "terminal.ansi.red": "#F87171",
         "terminal.ansi.white": "#CBD5E1",
         "terminal.ansi.yellow": "#FDE68A",
-        "terminal.background": "#111827",
+        "terminal.background": "#00000000",
         "terminal.foreground": "#94A3B8",
         "title_bar.background": "#00000099",
         "toolbar.background": "#00000000",

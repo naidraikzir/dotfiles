@@ -28,6 +28,7 @@ cask "TheBoredTeam/boring-notch/boring-notch", args: { install_options: ["--no-q
 cask "calendr"
 cask "cloudflare-warp"
 cask "deskpad"
+cask "ente-auth"
 cask "font-comic-shanns-mono-nerd-font"
 cask "font-departure-mono-nerd-font"
 cask "fujifilm-x-raw-studio"

@@ -11,8 +11,10 @@
     "charmed-icons": true,
     "dockerfile": true,
     "emmet": true,
+    "env": true,
     "git-firefly": true,
     "html": true,
+    "lua": true,
     "mcp-server-context7": true,
     "rainbow-csv": true,
     "sql": true,
@@ -36,6 +38,9 @@
     "enabled_in_text_threads": false,
     "mode": "eager",
     "provider": "zed"
+  },
+  "file_types": {
+    "Ruby": ["Brewfile"]
   },
   "format_on_save": "off",
   "git": {
