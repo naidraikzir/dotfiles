@@ -64,7 +64,6 @@ cask "transmission"
 cask "upscayl"
 cask "vnc-viewer"
 cask "vscodium"
-cask "wezterm"
 cask "zed"
 
 mas "Brightintosh", id: 6452471855
