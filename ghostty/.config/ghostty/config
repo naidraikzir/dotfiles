@@ -4,6 +4,8 @@ shell-integration-features  = no-cursor
 
 macos-titlebar-style        = tabs
 
+unfocused-split-opacity     = 0.5
+
 font-family                 = Comic Code Ligatures
 font-size                   = 14
 

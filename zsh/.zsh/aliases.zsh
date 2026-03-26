@@ -1,6 +1,6 @@
-alias python="python3"
-
 alias reload="source ~/.zshrc"
+
+alias python="python3"
 
 # hide/show all desktop icons (useful when presenting)
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
@@ -38,6 +38,7 @@ function git_develop_branch() {
 alias gaa="git add --all"
 alias gb="git branch"
 alias gcd="git checkout $(git_develop_branch)"
+alias gcm="git commit -m"
 alias gcam="git commit --all --message"
 alias gd="git diff"
 alias gl="git pull"
@@ -45,3 +46,6 @@ alias gs="git status -sb"
 alias gst="git status"
 alias gpo="git push origin HEAD"
 alias gpof="git push -f origin HEAD"
+
+# gen password
+alias genpass="openssl rand -base64 32"
