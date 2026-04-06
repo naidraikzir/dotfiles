@@ -51,7 +51,11 @@
       "delay_ms": 500
     }
   },
-  "icon_theme": "Base Charmed Icons",
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Base Charmed Icons",
+    "dark": "Base Charmed Icons"
+  },
   "indent_guides": {
     "active_line_width": 1,
     "coloring": "indent_aware",
@@ -131,7 +135,11 @@
     "font_family": "Comic Code Ligatures",
     "font_size": 12
   },
-  "theme": "Pace Dark",
+  "theme": {
+    "mode": "dark",
+    "light": "Pace Dark",
+    "dark": "Pace Dark"
+  },
   "toolbar": {
     "breadcrumbs": true,
     "quick_actions": true
