@@ -8,7 +8,7 @@
 [delta]
 	navigate = true
 [http]
-	postBuffer = 1048576000000
+        postBuffer = 524288000
 [rerere]
 	enabled = true
 	autoupdate = true
