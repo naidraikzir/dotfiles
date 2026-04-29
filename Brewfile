@@ -13,7 +13,6 @@ brew "glow"
 brew "mas"
 brew "mole"
 brew "pnpm"
-brew "qwen-code"
 brew "ripgrep"
 brew "scrcpy"
 brew "sheldon"
@@ -30,7 +29,9 @@ cask "TheBoredTeam/boring-notch/boring-notch", args: { install_options: ["--no-q
 cask "calendr"
 cask "cloudflare-warp"
 cask "deskpad"
+cask "dockdoor"
 cask "ente-auth"
+cask "xykong/tap/flux-markdown"
 cask "font-comic-shanns-mono-nerd-font"
 cask "font-departure-mono-nerd-font"
 cask "fujifilm-x-raw-studio"
@@ -72,3 +73,4 @@ cask "zed"
 
 mas "Brightintosh", id: 6452471855
 mas "System Color Picker", id: 1545870783
+mas "Remote for Android TV", id: 1668755298

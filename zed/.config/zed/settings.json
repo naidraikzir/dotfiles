@@ -29,18 +29,18 @@
   "buffer_font_size": 14,
   "buffer_line_height": "comfortable",
   "buffer_font_weight": 500,
+  "cli_default_open_behavior": "new_window",
   "colorize_brackets": true,
   "edit_predictions": {
     "copilot": {
       "proxy": null,
       "proxy_no_verify": null
     },
-    "enabled_in_text_threads": false,
     "mode": "eager",
     "provider": "zed"
   },
   "file_types": {
-    "Ruby": ["Brewfile"]
+    "Shell Script": ["Brewfile"]
   },
   "format_on_save": "off",
   "git": {
@@ -67,6 +67,11 @@
     }
   },
   "lsp": {
+    "biome": {
+      "settings": {
+        "require_config_file": true
+      }
+    },
     "eslint": {
       "settings": {
         "onIgnoredFiles": "off"
@@ -138,7 +143,7 @@
   "theme": {
     "mode": "dark",
     "light": "Pace Dark",
-    "dark": "Pace Dark"
+    "dark": "SilkCircuit Glow"
   },
   "toolbar": {
     "breadcrumbs": true,
