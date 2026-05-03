@@ -4,9 +4,17 @@ set -e
 
 git submodule update --init --recursive
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew update
-brew upgrade
-brew bundle
-
-stow --no-folding stow btop ghostty git opencode sheldon tmux zed zsh
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  brew update
+  brew upgrade
+  brew bundle
+  stow --no-folding stow btop ghostty git opencode sheldon tmux zed zsh
+elif [[ -n "$TERMUX_VERSION" ]]; then
+  pkg update
+  pkg install -y $(grep -v '^#' termux-packages.sh | grep -v '^$')
+  stow --no-folding stow git sheldon zsh
+else
+  echo "Unsupported platform"
+  exit 1
+fi

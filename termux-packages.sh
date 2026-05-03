@@ -1,0 +1,15 @@
+bat
+diffutils
+eza
+fastfetch
+fd
+ffmpeg
+fzf
+git-delta
+glow
+ripgrep
+sheldon
+stow
+tealdeer
+zoxide
+zsh
