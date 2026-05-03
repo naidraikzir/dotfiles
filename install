@@ -13,7 +13,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 elif [[ -n "$TERMUX_VERSION" ]]; then
   pkg update
   pkg install -y $(grep -v '^#' termux-packages.sh | grep -v '^$')
-  stow --no-folding stow git sheldon zsh
+  stow --no-folding stow btop git sheldon termux tmux zsh
 else
   echo "Unsupported platform"
   exit 1
