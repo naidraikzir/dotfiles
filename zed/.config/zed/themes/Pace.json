@@ -24,6 +24,7 @@
         "element.active": "#334155",
         "element.hover": "#1F2937",
         "element.selected": "#1F2937",
+        "error.background": "#990000",
         "foreground": "#CBD5E1",
         "minimap.thumb.active_background": "#00000099",
         "minimap.thumb.background": "#00000099",
