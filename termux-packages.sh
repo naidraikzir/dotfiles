@@ -3,7 +3,6 @@ diffutils
 eza
 fastfetch
 fd
-ffmpeg
 fzf
 git-delta
 glow
