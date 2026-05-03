@@ -45,8 +45,15 @@ fi
 
 eval "$(sheldon source)"
 eval "$(zoxide init zsh)"
-eval "$(fnm env --use-on-cd)"
-eval "$(fixit init --name tf zsh)"
+
+if command -v fnm &> /dev/null; then
+  eval "$(fnm env --use-on-cd)"
+fi
+
+if command -v fixit &> /dev/null; then
+  eval "$(fixit init --name tf zsh)"
+fi
+
 source <(fzf --zsh)
 
 source ~/.zsh/keybindings.zsh
