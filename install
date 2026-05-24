@@ -9,7 +9,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   brew update
   brew upgrade
   brew bundle
-  stow --no-folding stow btop ghostty git opencode sheldon tmux zed zsh
+  stow --no-folding stow btop cliamp ghostty git opencode sheldon tmux zed zsh
 elif [[ -n "$TERMUX_VERSION" ]]; then
   pkg update
   pkg install -y $(grep -v '^#' termux-packages.sh | grep -v '^$')

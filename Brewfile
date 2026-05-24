@@ -1,6 +1,7 @@
 brew "bat"
 brew "btop"
 brew "oven-sh/bun/bun"
+brew "bjarneo/cliamp/cliamp"
 brew "diffnav"
 brew "eza"
 brew "fastfetch"

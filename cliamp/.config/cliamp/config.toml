@@ -1,0 +1,7 @@
+eq_preset = "Electronic"
+shuffle = true
+theme = ""
+visualizer = "Rain"
+volume = -10
+
+eq = [6, 4, 1, -1, -2, 1, 3, 4, 5, 6]
