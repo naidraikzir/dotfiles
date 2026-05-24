@@ -1,6 +1,7 @@
 {
   "agent": {
-    "dock": "left"
+    "dock": "left",
+    "thinking_display": "always_collapsed"
   },
   "agent_servers": {
     "opencode": {
@@ -146,7 +147,7 @@
   "theme": {
     "mode": "dark",
     "light": "Pace Dark",
-    "dark": "SilkCircuit Glow"
+    "dark": "Pace Dark"
   },
   "toolbar": {
     "breadcrumbs": true,

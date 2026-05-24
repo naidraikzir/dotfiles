@@ -8,6 +8,7 @@ export SPACESHIP_CONFIG="$HOME/.zsh/spaceship.zsh"
 typeset -U path
 path=(
   /usr/local/sbin
+  $HOME/.local/bin
   $HOME/go/bin
   $HOME/.composer/vendor/bin
   $HOME/.bun/bin

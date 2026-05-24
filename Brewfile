@@ -40,10 +40,12 @@ cask "ghostty"
 cask "grandperspective"
 cask "handbrake-app"
 cask "helium-browser"
+cask "rvarunrathod/tap/hifidelity"
 cask "hyperkey"
 cask "iina"
 cask "iriunwebcam"
 cask "sozercan/repo/kaset"
+cask "keycastr"
 cask "libreoffice"
 cask "loading"
 cask "localsend"
@@ -73,5 +75,5 @@ cask "vscodium"
 cask "zed"
 
 mas "Brightintosh", id: 6452471855
-mas "System Color Picker", id: 1545870783
 mas "Remote for Android TV", id: 1668755298
+mas "System Color Picker", id: 1545870783
