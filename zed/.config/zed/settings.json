@@ -5,6 +5,11 @@
   },
   "agent_servers": {
     "opencode": {
+      "default_config_options": {
+        "mode": "build",
+        "effort": "medium",
+        "model": "opencode/mimo-v2.5-free"
+      },
       "type": "registry"
     },
     "gemini": {
@@ -29,7 +34,12 @@
   },
   "auto_update": false,
   "buffer_font_fallbacks": ["ComicShannsMono Nerd Font"],
-  "buffer_font_family": "Comic Code",
+  "buffer_font_family": "Maple Mono NF",
+  "buffer_font_features": {
+    "cv02": true,
+    "cv06": true,
+    "cv07": true
+  },
   "buffer_font_size": 14,
   "buffer_line_height": "comfortable",
   "buffer_font_weight": 500,
@@ -153,7 +163,12 @@
     "breadcrumbs": true,
     "quick_actions": true
   },
-  "ui_font_family": "Comic Code Ligatures",
+  "ui_font_family": "Maple Mono NF",
+  "ui_font_features": {
+    "cv02": true,
+    "cv06": true,
+    "cv07": true
+  },
   "ui_font_size": 14,
   "ui_font_weight": 500
 }

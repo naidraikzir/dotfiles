@@ -1,0 +1,50 @@
+schemaVersion = 1
+
+[catalogs]
+sortOrders = []
+
+    [[catalogs.globalScopes]]
+    catalogIdentifier = 'Tuna.EffectsCatalog'
+    mode = 'none'
+    selectedItemKeys = []
+
+    [[catalogs.globalScopes]]
+    catalogIdentifier = 'TunaEmoji.EmojiCatalog'
+    mode = 'none'
+    selectedItemKeys = []
+
+[[comboMode.bindings]]
+key = 'm'
+url = 'tuna://run/path.%252FSystem%252FApplications%252FUtilities%252FActivity%2520Monitor.app/Open'
+
+[[comboMode.bindings]]
+key = 'z'
+url = 'tuna://run/path.%252FApplications%252FZed.app/Open'
+
+[[comboMode.bindings]]
+key = 'g'
+url = 'tuna://run/path.%252FApplications%252FGhostty.app/Open'
+
+[[comboMode.bindings]]
+key = 'o'
+url = 'tuna://run/path.%252FApplications%252FObsidian.app/Open'
+
+[hotkeys]
+custom = []
+
+    [hotkeys.app.activate]
+    carbonKeyCode = 49
+    carbonModifiers = 256
+
+[settings]
+appPresentationMode = 'never'
+comboModeDoublePressTrigger = 'leftCommand'
+comboModeModifierTrigger = 'hyper'
+comboModeTriggerType = 'doublePress'
+themeIdentifier = 'com.brnbw.tuna.themes.default'
+
+[[catalogSettings]]
+catalogIdentifier = 'com.brnbw.tuna.themes.default'
+
+    [catalogSettings.values]
+    ThemeTint = 'custom:00635B'
