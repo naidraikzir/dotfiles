@@ -4,6 +4,7 @@ export WORDCHARS='_'
 export ANDROID_HOME="$HOME/Library/Android/sdk"
 export PNPM_HOME="$HOME/Library/pnpm"
 export SPACESHIP_CONFIG="$HOME/.zsh/spaceship.zsh"
+export HOMEBREW_NO_ASK=1
 
 typeset -U path
 path=(
@@ -53,6 +54,17 @@ fi
 
 if command -v fixit &> /dev/null; then
   eval "$(fixit init --name tf zsh)"
+fi
+
+if [[ -n "$TERMY_SHELL_INTEGRATION" ]]; then
+  __termy_title_precmd() {
+    print -Pn "\033]0;%1~\007"
+  }
+  __termy_title_preexec() {
+    print -Pn "\033]0;%1~ — ${1%% *}\007"
+  }
+  precmd_functions+=(__termy_title_precmd)
+  preexec_functions+=(__termy_title_preexec)
 fi
 
 source <(fzf --zsh)

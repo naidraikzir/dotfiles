@@ -60,7 +60,6 @@ cask "openmtp"
 cask "orbstack"
 cask "pearcleaner"
 cask "productdevbook/tap/portkiller", trusted: true
-cask "raycast"
 cask "react-native-debugger"
 cask "shotcut"
 cask "sloth"

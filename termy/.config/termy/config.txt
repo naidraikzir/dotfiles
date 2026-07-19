@@ -1,0 +1,162 @@
+# Main settings
+# Current color scheme name
+theme = shell-decide
+# Enable tmux runtime integration
+tmux_enabled = false
+# Reuse tmux tabs and panes across app restarts
+tmux_persistence = true
+# tmux executable path or binary name
+tmux_binary = tmux
+# Show active tmux pane border highlight in managed sessions
+tmux_show_active_pane_border = false
+# Initial directory for new sessions
+# working_dir = none
+# Directory used when working_dir is unset
+# working_dir_fallback = home
+# Warn before quitting when a tab has an active process
+warn_on_quit_with_running_process = true
+# Exact source priority for tab titles
+tab_title_priority = manual, explicit, shell, fallback
+# How tab titles are determined
+tab_title_mode = smart
+# Default tab title when no source is available
+tab_title_fallback = Terminal
+# Prefix used for explicit OSC title payloads
+tab_title_explicit_prefix = termy:tab:
+# Export TERMY_* environment values for shell hooks
+tab_title_shell_integration = true
+# Template for prompt-derived tab titles
+tab_title_prompt_format = {cwd}
+# Template for command-derived tab titles
+tab_title_command_format = {command}
+# When tab close buttons are visible
+tab_close_visibility = active_hover
+# How tab widths react to active state
+tab_width_mode = active_grow_sticky
+# Show or hide the termy branding in the titlebar
+show_termy_in_titlebar = false
+# Executable used for new sessions
+shell = none
+# TERM value exposed to child applications
+term = xterm-256color
+# COLORTERM value exposed to child applications
+colorterm = truecolor
+# Default startup window width in pixels
+window_width = 1800
+# Default startup window height in pixels
+window_height = 1169
+# Font family used in terminal UI
+font_family = RecMonoLinear Nerd Font
+# Terminal font size in pixels
+font_size = 14
+# Shape of the terminal cursor
+cursor_style = block
+# Enable blinking cursor animation
+cursor_blink = false
+# Window background opacity (0.0 to 1.0)
+background_opacity = 0.65
+# Enable blur effect for transparent backgrounds
+background_blur = true
+# Left and right terminal padding
+padding_x = 12
+# Top and bottom terminal padding
+padding_y = 8
+# Mouse wheel scroll speed multiplier
+mouse_scroll_multiplier = 3
+# Terminal scrollbar visibility behavior
+scrollbar_visibility = on_scroll
+# Terminal scrollbar color style
+scrollbar_style = neutral
+# Lines retained in terminal scrollback
+scrollback_history = 100000
+# Scrollback limit for inactive tabs
+inactive_tab_scrollback = 50000
+# How inactive panes are visually dimmed when a pane is active
+pane_focus_effect = cinematic
+# Strength of active pane emphasis (0.0 to 2.0)
+pane_focus_strength = 1.000
+# Show shortcut badges in command palette rows
+command_palette_show_keybinds = true
+# Provider used for AI input and model listing
+# API key for OpenAI integration
+# openai_api_key = none
+# API key for Google Gemini integration
+# gemini_api_key = none
+# Model used for AI input requests (provider-specific)
+# openai_model = gpt-5-mini
+
+# Keybindings (repeatable)
+# tmux-only keybind actions require an active tmux session
+# keybind = cmd-p=toggle_command_palette
+# keybind = cmd-c=copy
+# keybind = cmd-c=unbind
+# keybind = clear
+# keybind = secondary-d=split_pane_vertical
+
+# Color overrides
+line_height = 1.20
+keybind = clear
+keybind = secondary-w=close_pane_or_tab
+keybind = secondary-c=copy
+keybind = ctrl-tab=cycle_tabs
+keybind = alt-secondary-down=focus_pane_down
+keybind = alt-secondary-left=focus_pane_left
+keybind = secondary-o=focus_pane_next
+keybind = alt-secondary-right=focus_pane_right
+keybind = alt-secondary-up=focus_pane_up
+keybind = secondary-m=minimize_window
+keybind = secondary-t=new_tab
+keybind = secondary-f=open_search
+keybind = secondary-,=open_settings
+keybind = secondary-v=paste
+keybind = secondary-q=quit
+keybind = alt-shift-secondary-down=resize_pane_down
+keybind = alt-shift-secondary-left=resize_pane_left
+keybind = alt-shift-secondary-right=resize_pane_right
+keybind = alt-shift-secondary-up=resize_pane_up
+keybind = secondary-g=search_next
+keybind = shift-secondary-g=search_previous
+keybind = secondary-a=select_all
+keybind = shift-secondary-d=split_pane_horizontal
+keybind = secondary-d=split_pane_vertical
+keybind = secondary-{=switch_tab_left
+keybind = secondary-}=switch_tab_right
+keybind = secondary-1=switch_to_tab_1
+keybind = secondary-2=switch_to_tab_2
+keybind = secondary-3=switch_to_tab_3
+keybind = secondary-4=switch_to_tab_4
+keybind = secondary-5=switch_to_tab_5
+keybind = secondary-6=switch_to_tab_6
+keybind = secondary-7=switch_to_tab_7
+keybind = secondary-8=switch_to_tab_8
+keybind = secondary-9=switch_to_tab_9
+keybind = secondary-p=toggle_command_palette
+keybind = alt-secondary-i=toggle_inspector
+keybind = secondary-enter=toggle_pane_zoom
+keybind = secondary-b=toggle_workspace_sidebar
+keybind = secondary-+=zoom_in
+keybind = secondary--=zoom_out
+keybind = secondary-0=zoom_reset
+app_icon = old
+ui_font_family = Bricolage Grotesque
+[colors]
+# foreground = #e7ebf5
+background = #000000
+# cursor = #a7e9a3
+# black = #000000
+# red = #000000
+# green = #000000
+# yellow = #000000
+# blue = #000000
+# magenta = #000000
+# cyan = #000000
+# white = #000000
+# bright_black = #000000
+# bright_red = #000000
+# bright_green = #000000
+# bright_yellow = #000000
+# bright_blue = #000000
+# bright_magenta = #000000
+# bright_cyan = #000000
+# bright_white = #000000
+bright_black = #999999
