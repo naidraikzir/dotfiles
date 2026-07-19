@@ -46,7 +46,7 @@ window_width = 1800
 # Default startup window height in pixels
 window_height = 1169
 # Font family used in terminal UI
-font_family = RecMonoLinear Nerd Font
+font_family = Maple Mono NF
 # Terminal font size in pixels
 font_size = 14
 # Shape of the terminal cursor
@@ -151,7 +151,7 @@ background = #000000
 # magenta = #000000
 # cyan = #000000
 # white = #000000
-# bright_black = #000000
+bright_black = #999999
 # bright_red = #000000
 # bright_green = #000000
 # bright_yellow = #000000
@@ -159,4 +159,3 @@ background = #000000
 # bright_magenta = #000000
 # bright_cyan = #000000
 # bright_white = #000000
-bright_black = #999999

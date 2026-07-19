@@ -33,7 +33,6 @@
     "zig": true
   },
   "auto_update": false,
-  "buffer_font_fallbacks": ["ComicShannsMono Nerd Font"],
   "buffer_font_family": "Maple Mono NF",
   "buffer_font_features": {
     "cv02": true,
@@ -151,7 +150,12 @@
     "line_height": {
       "custom": 1.2
     },
-    "font_family": "Comic Code Ligatures",
+    "font_family": "Maple Mono NF",
+    "font_features": {
+      "cv02": true,
+      "cv06": true,
+      "cv07": true
+    },
     "font_size": 12
   },
   "theme": {
