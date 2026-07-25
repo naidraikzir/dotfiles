@@ -46,7 +46,7 @@ window_width = 1800
 # Default startup window height in pixels
 window_height = 1169
 # Font family used in terminal UI
-font_family = Maple Mono NF
+font_family = ComicCodeLigatures Nerd Font
 # Terminal font size in pixels
 font_size = 14
 # Shape of the terminal cursor
@@ -94,7 +94,7 @@ command_palette_show_keybinds = true
 # keybind = secondary-d=split_pane_vertical
 
 # Color overrides
-line_height = 1.20
+line_height = 1.25
 keybind = clear
 keybind = secondary-w=close_pane_or_tab
 keybind = secondary-c=copy
