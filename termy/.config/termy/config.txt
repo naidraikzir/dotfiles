@@ -2,7 +2,7 @@
 # Current color scheme name
 # theme = shell-decide
 # Enable tmux runtime integration
-tmux_enabled = false
+tmux_enabled = true
 # Reuse tmux tabs and panes across app restarts
 tmux_persistence = true
 # tmux executable path or binary name
