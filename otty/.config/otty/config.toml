@@ -1,0 +1,16 @@
+theme = "Ayu Light"
+theme-dark = "Dracula"
+foreground = "#f8f8f2"
+background = "#000000"
+palette-0 = "#21222c"
+
+font-family = "ComicCodeLigatures Nerd Font"
+font-size = 14
+
+background-opacity = 0.6
+
+cursor-style = "underline"
+
+adjust-cell-height = "-25%"
+
+ssh-integration = false

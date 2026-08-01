@@ -56,17 +56,6 @@ if command -v fixit &> /dev/null; then
   eval "$(fixit init --name tf zsh)"
 fi
 
-if [[ -n "$TERMY_SHELL_INTEGRATION" ]]; then
-  __termy_title_precmd() {
-    print -Pn "\033]0;%1~\007"
-  }
-  __termy_title_preexec() {
-    print -Pn "\033]0;%1~ — ${1%% *}\007"
-  }
-  precmd_functions+=(__termy_title_precmd)
-  preexec_functions+=(__termy_title_preexec)
-fi
-
 source <(fzf --zsh)
 
 source ~/.zsh/keybindings.zsh
@@ -74,3 +63,11 @@ source ~/.zsh/aliases.zsh
 source ~/.zsh/plugins_after.zsh
 
 [[ -f ~/.zshrc_local_after ]] && source ~/.zshrc_local_after
+
+# >>> otty shell integration >>>
+# Added by Otty — toggle in Settings > Shell > Shell Integration.
+# Inert unless launched by Otty (it sets $OTTY_SHELL_INTEGRATION).
+if [ -n "$OTTY_SHELL_INTEGRATION" ] && [ -r "$OTTY_SHELL_INTEGRATION/otty-integration.zsh" ]; then
+  . "$OTTY_SHELL_INTEGRATION/otty-integration.zsh"
+fi
+# <<< otty shell integration <<<

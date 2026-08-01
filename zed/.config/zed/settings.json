@@ -6,9 +6,9 @@
   "agent_servers": {
     "opencode": {
       "default_config_options": {
-        "mode": "build",
+        "mode": "plan",
         "effort": "medium",
-        "model": "opencode/deepseek-v4-flash-free"
+        "model": "opencode/nemotron-3-ultra-free"
       },
       "type": "registry"
     },
