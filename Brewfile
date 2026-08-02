@@ -14,6 +14,7 @@ brew "git-delta"
 brew "glow"
 brew "mas"
 brew "mole"
+brew "can1357/tap/omp", trusted: true
 brew "pnpm"
 brew "ripgrep"
 brew "scrcpy"
@@ -31,7 +32,6 @@ cask "TheBoredTeam/boring-notch/boring-notch", trusted: true, args: { install_op
 cask "calendr"
 cask "cloudflare-warp"
 cask "deskpad"
-cask "dockdoor"
 cask "ente-auth"
 cask "xykong/tap/flux-markdown", trusted: true
 cask "font-bricolage-grotesque"
@@ -67,11 +67,11 @@ cask "productdevbook/tap/portkiller", trusted: true
 cask "react-native-debugger"
 cask "shotcut"
 cask "sloth"
-cask "stats"
 cask "syntax-highlight", args: { skip_cask_deps: true, install_options: ["--no-quarantine"] }
 cask "tablepro"
 cask "tailscale-app"
 cask "the-unarchiver"
+cask "abue-ammar/tinycast/tinycast@beta", trusted: true
 cask "transmission"
 cask "vnc-viewer"
 cask "vorssaint"
