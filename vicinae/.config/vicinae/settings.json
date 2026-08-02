@@ -1,0 +1,27 @@
+{
+   "$schema": "https://vicinae.com/schemas/config.json",
+   "pop_to_root_on_close": true,
+   "global_shortcuts": {
+      "toggle": "control+SPACE"
+   },
+   "font": {
+      "normal": {
+         "family": "Bricolage Grotesque",
+         "size": 14
+      }
+   },
+   "theme": {
+      "dark": {
+         "name": "vicinae-dark"
+      }
+   },
+   "telemetry": {
+      "system_info": false
+   },
+   "launcher_window": {
+      "rounding": 12,
+      "compact_mode": {
+         "enabled": true
+      }
+   }
+}
