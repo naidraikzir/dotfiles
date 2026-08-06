@@ -71,8 +71,8 @@ cask "syntax-highlight", args: { skip_cask_deps: true, install_options: ["--no-q
 cask "tablepro"
 cask "tailscale-app"
 cask "the-unarchiver"
+cask "abue-ammar/tinycast/tinycast@beta", trusted: true
 cask "transmission"
-cask "vicinae"
 cask "vnc-viewer"
 cask "vorssaint"
 cask "vscodium"

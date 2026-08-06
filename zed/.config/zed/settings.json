@@ -1,19 +1,17 @@
 {
   "agent": {
-    "dock": "left",
-    "thinking_display": "always_collapsed"
-  },
-  "agent_servers": {
-    "opencode": {
-      "default_config_options": {
-        "mode": "plan",
-        "effort": "medium",
-        "model": "opencode/nemotron-3-ultra-free"
-      },
-      "type": "registry"
+    "default_model": {
+      "effort": "max",
+      "provider": "opencode",
+      "model": "go/deepseek-v4-flash",
+      "enable_thinking": true
     },
-    "gemini": {
-      "type": "registry"
+    "dock": "left",
+    "expand_terminal_card": false,
+    "play_sound_when_agent_done": "when_hidden",
+    "thinking_display": "always_collapsed",
+    "tool_permissions": {
+      "default": "allow"
     }
   },
   "auto_install_extensions": {
@@ -45,6 +43,7 @@
   "cli_default_open_behavior": "new_window",
   "colorize_brackets": true,
   "edit_predictions": {
+    "allow_data_collection": "no",
     "copilot": {
       "proxy": null,
       "proxy_no_verify": null

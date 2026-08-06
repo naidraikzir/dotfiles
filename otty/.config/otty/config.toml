@@ -4,13 +4,13 @@ foreground = "#f8f8f2"
 background = "#000000"
 palette-0 = "#21222c"
 
-font-family = "ComicCodeLigatures Nerd Font"
-font-size = 14
-
 background-opacity = 0.6
 
+font-family = "Maple Mono NF"
+font-size = 14
 cursor-style = "underline"
-
+text-underline = false
 adjust-cell-height = "-25%"
 
-ssh-integration = false
+sidebar-width = 246
+# ssh-integration = false (reset to default)
