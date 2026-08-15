@@ -1,7 +1,7 @@
 {
   "agent": {
     "default_model": {
-      "effort": "max",
+      "effort": "high",
       "provider": "opencode",
       "model": "go/deepseek-v4-flash",
       "enable_thinking": true
@@ -14,6 +14,17 @@
       "default": "allow"
     }
   },
+  "agent_servers": {
+    "pi-acp": {
+      "default_config_options": {
+        "thought_level": "high"
+      },
+      "type": "registry"
+    },
+    "opencode": {
+      "type": "registry"
+    }
+  },
   "auto_install_extensions": {
     "charmed-icons": true,
     "dockerfile": true,
@@ -23,6 +34,7 @@
     "html": true,
     "lua": true,
     "mcp-server-context7": true,
+    "oxc": true,
     "rainbow-csv": true,
     "sql": true,
     "svelte": true,
@@ -96,7 +108,8 @@
         },
         "experimental": {
           "classRegex": [
-            "(?:\\w+ClassName)=\\s*['\"]([^'\"]*)['\"]"
+            ["cn\\(([^)]*)\\)", "[\"'`]([^\"'`]*)"],
+            ["[\\w-]*[Cc]lass\\s*=\\s*(?!['\"`]cn\\()((?:['\"`]|\\{)[^'\"`\\n<]*(?:'[^'\\n<]*'[^'\"`\\n<]*)*(?:['\"`]|\\}))", "['\"`]([^'\"`]*)"]
           ]
         }
       }
@@ -160,7 +173,7 @@
   "theme": {
     "mode": "dark",
     "light": "Pace Dark",
-    "dark": "Pace Dark"
+    "dark": "Sunset Drive"
   },
   "toolbar": {
     "breadcrumbs": true,

@@ -65,6 +65,7 @@ cask "productdevbook/tap/portkiller", trusted: true
 cask "react-native-debugger"
 cask "shotcut"
 cask "sloth"
+cask "space-rabbit"
 cask "syntax-highlight", args: { skip_cask_deps: true, install_options: ["--no-quarantine"] }
 cask "tablepro"
 cask "tailscale-app"
