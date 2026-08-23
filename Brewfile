@@ -24,7 +24,6 @@ brew "tealdeer"
 brew "tmux"
 brew "zoxide"
 
-cask "appcleaner"
 cask "audacity"
 cask "aya"
 cask "batfi"
@@ -60,7 +59,6 @@ cask "only-switch"
 cask "openmtp"
 cask "orbstack"
 cask "otty"
-cask "pearcleaner"
 cask "productdevbook/tap/portkiller", trusted: true
 cask "react-native-debugger"
 cask "shotcut"
@@ -78,6 +76,4 @@ cask "vscodium"
 cask "zed"
 cask "zen"
 
-mas "Brightintosh", id: 6452471855
 mas "Remote for Android TV", id: 1668755298
-mas "System Color Picker", id: 1545870783
