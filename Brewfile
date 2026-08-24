@@ -29,7 +29,7 @@ cask "aya"
 cask "batfi"
 cask "TheBoredTeam/boring-notch/boring-notch", trusted: true, args: { install_options: ["--no-quarantine"] }
 cask "calendr"
-cask "cloudflare-warp"
+cask "caskhub"
 cask "deskpad"
 cask "ente-auth"
 cask "xykong/tap/flux-markdown", trusted: true
@@ -56,14 +56,14 @@ cask "neodisk"
 cask "nextcloud"
 cask "obsidian"
 cask "only-switch"
-cask "openmtp"
 cask "orbstack"
 cask "otty"
+cask "phosphene"
 cask "productdevbook/tap/portkiller", trusted: true
-cask "react-native-debugger"
 cask "shotcut"
 cask "sloth"
 cask "space-rabbit"
+cask "neighbor-z/swiftmtp/swiftmtp", trusted: true
 cask "syntax-highlight", args: { skip_cask_deps: true, install_options: ["--no-quarantine"] }
 cask "tablepro"
 cask "tailscale-app"
