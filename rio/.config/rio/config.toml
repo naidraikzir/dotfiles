@@ -1,0 +1,14 @@
+theme = "Twilight"
+fonts.family = "Sligoil Micro NF"
+fonts.size = 14
+fonts.features = ["ss01"]
+
+[window]
+opacity = 0.4
+blur = true
+
+[bindings]
+keys = [
+  { key = "left", with = "super", esc = "\u001bOH" },
+  { key = "right", with = "super", esc = "\u001bOF" },
+]

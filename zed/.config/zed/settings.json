@@ -17,7 +17,8 @@
   "agent_servers": {
     "pi-acp": {
       "default_config_options": {
-        "thought_level": "high"
+        "model": "opencode-go/glm-5.3-flash",
+        "thought_level": "medium"
       },
       "type": "registry"
     },
@@ -47,15 +48,12 @@
     "zig": true
   },
   "auto_update": false,
-  "buffer_font_family": "Maple Mono NF",
+  "buffer_font_family": "Sligoil",
   "buffer_font_features": {
-    "cv02": true,
-    "cv06": true,
-    "cv07": true
+    "ss01": true
   },
   "buffer_font_size": 14,
   "buffer_line_height": "comfortable",
-  "buffer_font_weight": 500,
   "cli_default_open_behavior": "new_window",
   "colorize_brackets": true,
   "edit_predictions": {
@@ -164,13 +162,11 @@
   "terminal": {
     "cursor_shape": "underline",
     "line_height": {
-      "custom": 1.2
+      "custom": 1.25
     },
-    "font_family": "Maple Mono NF",
+    "font_family": "Sligoil Micro NF",
     "font_features": {
-      "cv02": true,
-      "cv06": true,
-      "cv07": true
+      "ss01": true
     },
     "font_size": 12
   },
@@ -183,12 +179,9 @@
     "breadcrumbs": true,
     "quick_actions": true
   },
-  "ui_font_family": "Maple Mono NF",
+  "ui_font_family": "Sligoil",
   "ui_font_features": {
-    "cv02": true,
-    "cv06": true,
-    "cv07": true
+    "ss01": true
   },
-  "ui_font_size": 14,
-  "ui_font_weight": 500
+  "ui_font_size": 14
 }

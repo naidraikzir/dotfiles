@@ -24,6 +24,7 @@ brew "tealdeer"
 brew "tmux"
 brew "zoxide"
 
+cask "airsync"
 cask "audacity"
 cask "aya"
 cask "batfi"
@@ -60,6 +61,7 @@ cask "orbstack"
 cask "otty"
 cask "phosphene"
 cask "productdevbook/tap/portkiller", trusted: true
+cask "rio"
 cask "shotcut"
 cask "sloth"
 cask "space-rabbit"
@@ -75,5 +77,3 @@ cask "vorssaint"
 cask "vscodium"
 cask "zed"
 cask "zen"
-
-mas "Remote for Android TV", id: 1668755298
