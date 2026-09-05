@@ -1,0 +1,33 @@
+[meta]
+name = "Twilight"
+mode = "dark"
+description = "Twilight"
+
+[terminal]
+foreground = "#FFFFD4"
+background = "#00000044"
+cursor = "#FFFFFF"
+cursor-text = "#FFFFD4"
+selection-foreground = "#FFFFD4"
+selection-background = "#313131"
+palette = [
+    "#141414", "#C06D44", "#AFB97A", "#C2A86C",
+    "#44474A", "#B4BE7C", "#778385", "#FFFFD4",
+    "#262626", "#DE7C4C", "#CCD88C", "#E2C47E",
+    "#5A5E62", "#D0DC8E", "#8A989B", "#FFFFD4",
+]
+
+[token]
+foreground = "#FFFFD4"
+accent = "#44474A"
+
+[panel]
+surface = "#0F0F0D"
+border = "#2E2E26"
+
+[sidebar]
+background = "none"
+
+[window]
+background = "#00000044"
+material = "glass"

@@ -60,7 +60,6 @@ cask "orbstack"
 cask "otty"
 cask "phosphene"
 cask "productdevbook/tap/portkiller", trusted: true
-cask "rio"
 cask "shotcut"
 cask "sloth"
 cask "space-rabbit"

@@ -1,16 +1,16 @@
 theme = "Ayu Light"
-theme-dark = "Dracula"
-foreground = "#f8f8f2"
-background = "#000000"
-palette-0 = "#21222c"
+theme-dark = "Twilight"
 
 background-opacity = 0.6
 
-font-family = "Maple Mono NF"
+font-family = "Sligoil Micro NF"
 font-size = 14
 cursor-style = "underline"
 text-underline = false
-adjust-cell-height = "-25%"
 
 sidebar-width = 246
-# ssh-integration = false (reset to default)
+
+cursor-animation = "smooth"
+
+open-with-app = "Xcode|com.apple.dt.Xcode"
+open-with-app = "Zed|dev.zed.Zed"
