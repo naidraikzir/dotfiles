@@ -1,0 +1,25 @@
+{
+  "collapseChangelog": true,
+  "compaction": {
+    "enabled": true
+  },
+  "defaultThinkingLevel": "high",
+  "enableAnalytics": false,
+  "enableInstallTelemetry": false,
+  "extensions": [],
+  "hideThinkingBlock": true,
+  "lastChangelogVersion": "0.84.4",
+  "packages": [
+    "git:github.com/dodo-reach/pi-clarify",
+    "npm:@dietrichgebert/ponytail",
+    "npm:@ff-labs/pi-fff",
+    "npm:pi-context-view",
+    "npm:pi-cache-graph",
+    "npm:pi-mcp-adapter",
+    "npm:pi-subagents"
+  ],
+  "retry": {
+    "enabled": true
+  },
+  "theme": "dark"
+}
