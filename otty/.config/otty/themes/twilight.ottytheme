@@ -5,7 +5,7 @@ description = "Twilight"
 
 [terminal]
 foreground = "#FFFFD4"
-background = "#00000044"
+background = "#00000050"
 cursor = "#FFFFFF"
 cursor-text = "#FFFFD4"
 selection-foreground = "#FFFFD4"
@@ -27,7 +27,8 @@ border = "#2E2E26"
 
 [sidebar]
 background = "none"
+border-right = "1px solid #10101007"
 
 [window]
-background = "#00000044"
-material = "glass"
+background = "#00000050"
+material = "vibrancy-thick"

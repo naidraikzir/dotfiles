@@ -5,6 +5,7 @@ export ANDROID_HOME="$HOME/Library/Android/sdk"
 export PNPM_HOME="$HOME/Library/pnpm"
 export SPACESHIP_CONFIG="$HOME/.zsh/spaceship.zsh"
 export HOMEBREW_NO_ASK=1
+export HOMEBREW_NO_ENV_HINTS=1
 
 typeset -U path
 path=(
