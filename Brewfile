@@ -3,6 +3,7 @@ brew "btop"
 brew "oven-sh/bun/bun", trusted: true
 brew "bjarneo/cliamp/cliamp", trusted: true
 brew "diffnav"
+brew "dust"
 brew "eza"
 brew "fastfetch"
 brew "fd"
@@ -60,6 +61,7 @@ cask "phosphene"
 cask "productdevbook/tap/portkiller", trusted: true
 cask "shotcut"
 cask "sloth"
+cask "nolight132/tap/sonora", trusted: true
 cask "space-rabbit"
 cask "neighbor-z/swiftmtp/swiftmtp", trusted: true
 cask "syntax-highlight", args: { skip_cask_deps: true, install_options: ["--no-quarantine"] }

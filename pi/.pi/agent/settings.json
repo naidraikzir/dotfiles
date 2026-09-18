@@ -22,5 +22,7 @@
   "retry": {
     "enabled": true
   },
-  "theme": "dark"
+  "theme": "dark",
+  "defaultProvider": "opencode-go",
+  "defaultModel": "glm-5.3-flash"
 }
