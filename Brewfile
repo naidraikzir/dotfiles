@@ -28,8 +28,10 @@ brew "zoxide"
 
 cask "audacity"
 cask "aya"
+cask "bettercmdtab"
 cask "calendr"
 cask "caskhub"
+cask "clop"
 cask "deskpad"
 cask "ente-auth"
 cask "xykong/tap/flux-markdown", trusted: true
@@ -42,14 +44,13 @@ cask "handbrake-app"
 cask "helium-browser"
 cask "okooo5km/tap/hipixel", trusted: true
 cask "hyperconnect"
-cask "hyperkey"
 cask "iina"
 cask "iriunwebcam"
-cask "sozercan/repo/kaset", trusted: true
 cask "keycastr"
 cask "libreoffice"
 cask "localsend"
 cask "lunacy"
+cask "macpacker"
 cask "markdown-preview"
 cask "neodisk"
 cask "nextcloud"
@@ -66,7 +67,6 @@ cask "space-rabbit"
 cask "neighbor-z/swiftmtp/swiftmtp", trusted: true
 cask "syntax-highlight", args: { skip_cask_deps: true, install_options: ["--no-quarantine"] }
 cask "tablepro"
-cask "the-unarchiver"
 cask "abue-ammar/tinycast/tinycast@beta", trusted: true
 cask "transmission"
 cask "vnc-viewer"

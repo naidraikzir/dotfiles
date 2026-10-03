@@ -6,9 +6,11 @@
   "defaultThinkingLevel": "high",
   "enableAnalytics": false,
   "enableInstallTelemetry": false,
-  "extensions": [],
+  "extensions": [
+    "-builtin:mcp"
+  ],
   "hideThinkingBlock": true,
-  "lastChangelogVersion": "0.85.1",
+  "lastChangelogVersion": "1.0.0",
   "packages": [
     "git:github.com/dodo-reach/pi-clarify",
     "npm:@dietrichgebert/ponytail",
