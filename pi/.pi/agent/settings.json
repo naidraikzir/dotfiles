@@ -10,7 +10,7 @@
     "-builtin:mcp"
   ],
   "hideThinkingBlock": true,
-  "lastChangelogVersion": "1.0.0",
+  "lastChangelogVersion": "1.1.0",
   "packages": [
     "git:github.com/dodo-reach/pi-clarify",
     "npm:@dietrichgebert/ponytail",

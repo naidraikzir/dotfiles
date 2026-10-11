@@ -63,7 +63,7 @@
       "proxy_no_verify": null
     },
     "mode": "eager",
-    "provider": "zed"
+    "provider": "copilot"
   },
   "file_types": {
     "Shell Script": ["Brewfile"]
